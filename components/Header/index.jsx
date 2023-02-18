@@ -17,7 +17,7 @@ export default function Header({ onNavigationClick }) {
         />
       </Link>
       <div className={styles.partners}>
-        <a href='https://www.tau.ac.il/'>
+        <a href='https://www.tau.ac.il/' target='_blank'>
           <Image
             src='/TAU_Logo.svg'
             alt='Tel Aviv University logo'
@@ -26,7 +26,7 @@ export default function Header({ onNavigationClick }) {
             priority
           />
         </a>
-        <a href='https://igem.org/'>
+        <a href='https://igem.org/' target='_blank'>
           <Image
             src='/iGem_dark_Logo.svg'
             alt='iGem logo'
@@ -35,7 +35,7 @@ export default function Header({ onNavigationClick }) {
             priority
           />
         </a>
-        <a href='https://www.alagene.co.il/'>
+        <a href='https://www.alagene.co.il/' target='_blank'>
           <Image
             src='/Alagene_Logo.svg'
             alt='Alagene logo'
