@@ -7,6 +7,7 @@ import CompetitionSteps from "@/components/CompetitionSteps";
 import Subscription from "@/components/Subscription";
 import Overview from "@/components/Overview";
 import Examples from "@/components/Examples";
+import Footer from "@/components/Footer";
 
 const karantina = Karantina({
   subsets: ["hebrew", "latin"],
@@ -31,13 +32,14 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Header onNavigationClick={onNavigationClick} />
       <main className={`${styles.main} ${karantina.className}`}>
+        <Header onNavigationClick={onNavigationClick} />
         <Hero targetDate={targetDate} />
         <CompetitionSteps />
         <Subscription />
         <Overview />
         <Examples />
+        <Footer />
       </main>
     </>
   );
