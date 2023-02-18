@@ -29,6 +29,7 @@ body {
     white 1155px 1160px
   );
   min-height: 100svh;
+  letter-spacing: 0.1rem;
 }
 
 a {
