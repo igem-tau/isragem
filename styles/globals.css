@@ -10,6 +10,9 @@
   --font-primary-color: #000000;
   --font-secondary-color: #ffffff;
 
+  --large-font-size: 2rem;
+  --small-font-size: 1.2rem;
+
   --border-radius: 15px;
 }
 

@@ -1,0 +1,14 @@
+.card {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: var(--large-font-size);
+  margin-bottom: 30px;
+  text-align: center;
+  direction: rtl;
+}

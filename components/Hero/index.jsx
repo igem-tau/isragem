@@ -23,7 +23,11 @@ export default function Hero({ targetDate }) {
         minutesText='דקות'
         secondsText='שניות'
       />
-      <Button text='הרשמו עכשיו' className={styles.button} target='#' />
+      <Button
+        text='הירשמו עכשיו'
+        className={styles.button}
+        target='#subscription'
+      />
       <Banner
         className={styles.banner}
         subscriptionEndDate='10.3'

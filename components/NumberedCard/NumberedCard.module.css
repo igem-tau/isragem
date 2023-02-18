@@ -44,9 +44,9 @@
 }
 
 .large_text {
-  font-size: 2rem;
+  font-size: var(--large-font-size);
 }
 
 .small_text {
-  font-size: 1.2rem;
+  font-size: var(--small-font-size);
 }

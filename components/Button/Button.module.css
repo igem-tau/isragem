@@ -5,4 +5,9 @@
   background-color: var(--accent-color);
   color: var(--secondary-color);
   cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.button:hover {
+  scale: 1.1;
 }

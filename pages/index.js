@@ -4,6 +4,8 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { Karantina } from "@next/font/google";
 import CompetitionSteps from "@/components/CompetitionSteps";
+import Subscription from "@/components/Subscription";
+import Overview from "@/components/Overview";
 
 const karantina = Karantina({
   subsets: ["hebrew", "latin"],
@@ -32,6 +34,8 @@ export default function Home() {
       <main className={`${styles.main} ${karantina.className}`}>
         <Hero targetDate={targetDate} />
         <CompetitionSteps />
+        <Subscription />
+        <Overview />
       </main>
     </>
   );
