@@ -1,0 +1,19 @@
+.navigation {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 50;
+  width: 100%;
+  height: 100lvh;
+  background: linear-gradient(
+    45deg,
+    var(--primary-color) 10%,
+    var(--secondary-color)
+  );
+  padding: 2rem 3rem;
+  color: var(--accent-color);
+}

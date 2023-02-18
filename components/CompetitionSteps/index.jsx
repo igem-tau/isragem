@@ -3,7 +3,7 @@ import styles from "./CompetitionSteps.module.css";
 
 export default function CompetitionSteps() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='competition_steps'>
       <h2>שלבי התחרות</h2>
       <div className={styles.steps}>
         <NumberedCard

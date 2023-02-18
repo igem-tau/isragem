@@ -59,3 +59,11 @@ h3 {
   font-size: 3.125rem;
   font-weight: 400;
 }
+
+#navigation:target {
+  display: flex;
+}
+
+#navigation:target ~ main {
+  display: none;
+}

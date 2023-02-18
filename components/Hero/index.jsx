@@ -6,7 +6,7 @@ import styles from "./Hero.module.css";
 
 export default function Hero({ targetDate }) {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id='home'>
       <Image
         src='/ISRAGEM_Logo.svg'
         alt='ISRAGEM I'

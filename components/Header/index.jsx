@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "./Header.module.css";
 import Link from "next/link";
 
-export default function Header({ onNavigationClick }) {
+export default function Header() {
   return (
     <header className={styles.general}>
       <Link href={"/"}>
@@ -45,9 +45,11 @@ export default function Header({ onNavigationClick }) {
           />
         </a>
       </div>
-      <span className={styles.navigation} onClick={onNavigationClick}>
-        <FontAwesomeIcon icon={faBars} className={styles.nav_icon} />
-      </span>
+      <a href='#navigation'>
+        <span className={styles.navigation}>
+          <FontAwesomeIcon icon={faBars} className={styles.nav_icon} />
+        </span>
+      </a>
     </header>
   );
 }

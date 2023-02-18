@@ -3,7 +3,7 @@ import styles from "./Overview.module.css";
 
 export default function Overview() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='overview'>
       <h2 className={styles.title}>על קצה המזלג</h2>
       <PictureCard
         text='פרויקט ה- iGEM הינו פרויקט ייחודי, בו סטודנטים מאוניברסיטאות מכל העולם מתבקשים ליזום פרויקט מחקר בתחום הביולוגיה הסינטטית, ולבסוף להציג את תוצאותיהם בתחרות בינלאומית המתקיימת מדי שנה בפריז. הרעיון מאחורי תחרות הISRAGEM הוא לאפשר לתלמידי תיכון בישראל להתנסות בחוויה דומה.'
