@@ -1,7 +1,7 @@
 .container {
   background-color: var(--secondary-color);
   border: 5px solid white;
-  border-radius: 15px;
+  border-radius: var(--border-radius);
   min-width: 860px;
   min-height: 270px;
   padding: 40px 20px;

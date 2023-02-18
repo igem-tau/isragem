@@ -1,0 +1,52 @@
+.card {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background-color: var(--primary-color);
+  border: 5px solid white;
+  border-radius: var(--border-radius);
+  padding: 45px 25px 25px 25px;
+  align-items: center;
+}
+
+.card::before {
+  content: attr(number);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid var(--primary-color);
+  background-color: white;
+  top: -30px;
+  font-size: 3.125rem;
+}
+
+.card.accent::before {
+  border: 5px solid var(--accent-color);
+}
+
+.card.accent {
+  background-color: var(--accent-color);
+}
+
+.icon {
+  margin: 20px 0;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.large_text {
+  font-size: 2rem;
+}
+
+.small_text {
+  font-size: 1.2rem;
+}

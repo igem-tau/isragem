@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { Karantina } from "@next/font/google";
+import CompetitionSteps from "@/components/CompetitionSteps";
 
 const karantina = Karantina({
   subsets: ["hebrew", "latin"],
@@ -30,6 +31,7 @@ export default function Home() {
       <Header onNavigationClick={onNavigationClick} />
       <main className={`${styles.main} ${karantina.className}`}>
         <Hero targetDate={targetDate} />
+        <CompetitionSteps />
       </main>
     </>
   );

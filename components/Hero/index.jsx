@@ -9,6 +9,7 @@ export default function Hero({ targetDate }) {
     <section className={styles.hero}>
       <Image
         src='/ISRAGEM_Logo.svg'
+        alt='ISRAGEM I'
         width={480}
         height={107}
         priority

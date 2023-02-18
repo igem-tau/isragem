@@ -9,6 +9,8 @@
 
   --font-primary-color: #000000;
   --font-secondary-color: #ffffff;
+
+  --border-radius: 15px;
 }
 
 * {
