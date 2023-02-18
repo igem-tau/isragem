@@ -28,7 +28,7 @@ export default function Header({ onNavigationClick }) {
         </a>
         <a href='https://igem.org/'>
           <Image
-            src='/iGem_Logo.svg'
+            src='/iGem_dark_Logo.svg'
             alt='iGem logo'
             width={100}
             height={35}
