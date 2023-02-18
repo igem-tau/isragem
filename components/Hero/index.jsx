@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../Button";
 import CountDown from "../CountDown";
 import styles from "./Hero.module.css";
 
@@ -14,12 +15,13 @@ export default function Hero({ targetDate }) {
       />
       <CountDown
         targetDate={targetDate}
-        title={"ההרשמה תיסגר בעוד:"}
+        title='ההרשמה תיסגר בעוד:'
         daysText='ימים'
         hoursText='שעות'
         minutesText='דקות'
         secondsText='שניות'
       />
+      <Button text='הרשמו עכשיו' className={styles.button} target='#' />
     </div>
   );
 }
