@@ -9,6 +9,10 @@
   margin-bottom: 3rem;
 }
 
+.single_card {
+  margin-bottom: 60px;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
