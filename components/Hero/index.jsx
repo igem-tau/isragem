@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Banner from "../Banner";
 import Button from "../Button";
 import CountDown from "../CountDown";
 import styles from "./Hero.module.css";
 
 export default function Hero({ targetDate }) {
   return (
-    <div className={styles.hero}>
+    <section className={styles.hero}>
       <Image
         src='/ISRAGEM_Logo.svg'
         width={480}
@@ -22,6 +23,15 @@ export default function Hero({ targetDate }) {
         secondsText='שניות'
       />
       <Button text='הרשמו עכשיו' className={styles.button} target='#' />
-    </div>
+      <Banner
+        className={styles.banner}
+        subscriptionEndDate='10.3'
+        subscriptionEndText='סגירת ההרשמה'
+        competitionStartDate='13.3'
+        competitionStartText='יום הזנקת התחרות'
+        finalDate='27.6'
+        finalText='אירוע הגמר'
+      />
+    </section>
   );
 }
