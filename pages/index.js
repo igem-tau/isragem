@@ -6,6 +6,7 @@ import { Karantina } from "@next/font/google";
 import CompetitionSteps from "@/components/CompetitionSteps";
 import Subscription from "@/components/Subscription";
 import Overview from "@/components/Overview";
+import Examples from "@/components/Examples";
 
 const karantina = Karantina({
   subsets: ["hebrew", "latin"],
@@ -36,6 +37,7 @@ export default function Home() {
         <CompetitionSteps />
         <Subscription />
         <Overview />
+        <Examples />
       </main>
     </>
   );
