@@ -38,3 +38,18 @@ img {
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  font-size: 11.25rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 6.25rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 3.125rem;
+  font-weight: 400;
+}
