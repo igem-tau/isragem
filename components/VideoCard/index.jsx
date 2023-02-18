@@ -15,9 +15,9 @@ export default function VideoCard({
         height='315'
         src={videoSrc}
         title={videoTitle}
-        frameborder='0'
-        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-        allowfullscreen
+        frameBorder='0'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;'
+        allowFullScreen
       />
       <p className={styles.text}>{text}</p>
     </Card>
