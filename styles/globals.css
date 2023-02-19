@@ -37,13 +37,14 @@
 body {
   color: var(--font-primary-color);
   text-align: center;
-  background: repeating-linear-gradient(
-    -135deg,
-    var(--secondary-color) 0 400px,
-    white 400px 405px,
-    var(--primary-color) 405px 1155px,
-    white 1155px 1160px
-  );
+  background: url("../public/decorations.svg") right top repeat,
+    repeating-linear-gradient(
+      -135deg,
+      var(--secondary-color) 0 400px,
+      white 400px 405px,
+      var(--primary-color) 405px 1155px,
+      white 1155px 1160px
+    );
   min-height: 100svh;
   letter-spacing: 0.1rem;
 }
@@ -112,5 +113,16 @@ h3 {
     --large-horizontal-spacing: 6rem;
     --medium-horizontal-spacing: 3rem;
     --small-horizontal-spacing: 1rem;
+  }
+
+  body {
+    background: url("../public/decorations_mobile.svg") 0px 15px repeat,
+      repeating-linear-gradient(
+        -135deg,
+        var(--secondary-color) 0 400px,
+        white 400px 405px,
+        var(--primary-color) 405px 1155px,
+        white 1155px 1160px
+      );
   }
 }
