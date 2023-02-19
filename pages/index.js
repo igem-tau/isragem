@@ -54,6 +54,9 @@ const competitionSteps = [
   },
 ];
 
+const formSrc =
+  "https://docs.google.com/forms/d/e/1FAIpQLSf-unXjLtd_V8rvm1TJCJHuOZuilVXd8QD12dq3lUjZTQcrCA/viewform?embedded=true";
+
 const overviewInfo = [
   {
     text: "פרויקט ה- iGEM הינו פרויקט ייחודי, בו סטודנטים מאוניברסיטאות מכל העולם מתבקשים ליזום פרויקט מחקר בתחום הביולוגיה הסינטטית, ולבסוף להציג את תוצאותיהם בתחרות בינלאומית המתקיימת מדי שנה בפריז. הרעיון מאחורי תחרות הISRAGEM הוא לאפשר לתלמידי תיכון בישראל להתנסות בחוויה דומה.",
@@ -126,7 +129,7 @@ export default function Home() {
           bannerTexts={bannerTexts}
         />
         <CompetitionSteps title='שלבי התחרות' steps={competitionSteps} />
-        <Subscription title='הירשמו עכשיו' />
+        <Subscription title='הירשמו עכשיו' formSrc={formSrc} />
         <Overview title='על קצה המזלג' overviewInfo={overviewInfo} />
         <Examples
           title='דוגמאות לשימוש בביולוגיה סינטטית'
