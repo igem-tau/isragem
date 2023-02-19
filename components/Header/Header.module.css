@@ -12,8 +12,17 @@
 .partners {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: var(--small-horizontal-spacing);
   margin: 0 auto;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.image {
+  width: 100px;
 }
 
 .navigation {
@@ -25,9 +34,24 @@
   border-radius: 50%;
   background-color: black;
   cursor: pointer;
+  margin-left: calc(150px - 25px);
 }
 
 .nav_icon {
   color: var(--accent-color);
   width: 18px;
+}
+
+@media (max-width: 600px) {
+  .partners {
+    display: none;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .image {
+    width: 75px;
+  }
 }

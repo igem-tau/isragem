@@ -1,14 +1,14 @@
 .container {
-  text-align: center;
-  width: min(92%, 1300);
+  width: min(95vw, 1300);
 }
 
 .steps {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  margin-top: 3rem;
+  column-gap: var(--small-horizontal-spacing);
+  row-gap: var(--large-vertical-spacing);
+  margin-top: var(--medium-vertical-spacing);
   direction: rtl;
-  margin-bottom: 6rem;
+  margin-bottom: var(--large-vertical-spacing);
 }

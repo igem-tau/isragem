@@ -6,13 +6,21 @@ export default function PictureCard({
   text,
   imagePath,
   imageDescription,
-  className,
+  imageWidth,
+  className = "",
+  imageClassName = "",
   ...props
 }) {
   return (
     <Card className={`${styles.card} ${className}`} {...props}>
       <p className={styles.text}>{text}</p>
-      <Image src={imagePath} alt={imageDescription} width={480} height={285} />
+      <Image
+        src={imagePath}
+        alt={imageDescription}
+        width={480}
+        height={285}
+        className={`${styles.image} ${imageClassName}`}
+      />
     </Card>
   );
 }

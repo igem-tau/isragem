@@ -8,7 +8,11 @@
 
 .text {
   font-size: var(--large-font-size);
-  margin-bottom: 30px;
-  text-align: center;
+  margin-bottom: var(--medium-vertical-spacing);
   direction: rtl;
+}
+
+.image {
+  max-width: 90%;
+  height: auto;
 }

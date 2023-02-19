@@ -1,4 +1,16 @@
 .text {
   font-size: var(--small-font-size);
-  margin-top: 1.5rem;
+  margin-top: var(--medium-vertical-spacing);
+}
+
+.video {
+  width: 600px;
+  aspect-ratio: auto;
+}
+
+@media (max-width: 600px) {
+  .video {
+    max-width: 83vw;
+    height: auto;
+  }
 }

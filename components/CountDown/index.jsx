@@ -28,15 +28,15 @@ function getTimeLeft(targetDate) {
 
 function TimeUnit({ time, text, isLast = false }) {
   return (
-    <div>
-      <h1 className={`${styles.time} ${isLast ? styles.last : ""}`}>{time}</h1>
-      <h3
-        className={`${styles.time}${styles.timeText} ${
+    <div className={styles.time_unit}>
+      <h1
+        className={`${styles.time} ${styles.time_spacing} ${
           isLast ? styles.last : ""
         }`}
       >
-        {text}
-      </h3>
+        {time}
+      </h1>
+      <h3 className={styles.time_spacing}>{text}</h3>
     </div>
   );
 }

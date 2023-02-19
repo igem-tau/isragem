@@ -2,12 +2,12 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;
+  column-gap: var(--small-horizontal-spacing);
   background-color: var(--accent-color);
   border-top: 10px solid white;
   border-bottom: 10px solid white;
-  padding: 20px;
-  margin-bottom: 6rem;
+  padding: var(--small-horizontal-spacing);
+  margin-bottom: var(--large-vertical-spacing);
   direction: rtl;
 }
 

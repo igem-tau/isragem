@@ -1,6 +1,6 @@
 .card {
   background-color: var(--secondary-color);
-  padding: 40px 30px;
+  padding: var(--small-vertical-spacing) var(--small-horizontal-spacing);
   border: 5px solid white;
   border-radius: var(--border-radius);
   color: white;
@@ -9,4 +9,10 @@
 .card.accent {
   background-color: var(--accent-color);
   color: black;
+}
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 95vw;
+  }
 }

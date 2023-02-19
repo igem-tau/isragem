@@ -4,11 +4,11 @@
   flex-direction: column;
   align-items: center;
 
-  margin-bottom: 3rem;
+  margin-bottom: var(--large-vertical-spacing);
 }
 
 .title {
-  margin-bottom: 3rem;
+  margin-bottom: var(--medium-vertical-spacing);
 }
 
 .cards {
@@ -20,7 +20,6 @@
 }
 
 .card {
-  max-width: 650px;
-  text-align: center;
   direction: rtl;
+  width: 650px;
 }

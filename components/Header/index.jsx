@@ -11,6 +11,7 @@ export default function Header() {
         <Image
           src='/ISRAGEM_Logo.svg'
           alt='Israem logo'
+          className={styles.logo}
           width={193}
           height={43}
           priority
@@ -21,6 +22,7 @@ export default function Header() {
           <Image
             src='/TAU_Logo.svg'
             alt='Tel Aviv University logo'
+            className={styles.image}
             width={100}
             height={35}
             priority
@@ -30,6 +32,7 @@ export default function Header() {
           <Image
             src='/iGem_dark_Logo.svg'
             alt='iGem logo'
+            className={styles.image}
             width={100}
             height={35}
             priority
@@ -39,6 +42,7 @@ export default function Header() {
           <Image
             src='/Alagene_Logo.svg'
             alt='Alagene logo'
+            className={styles.image}
             width={100}
             height={35}
             priority

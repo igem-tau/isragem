@@ -7,13 +7,22 @@
 
 .title {
   margin-top: 100px;
-  margin-bottom: 3rem;
+  margin-bottom: var(--medium-vertical-spacing);
+  width: calc(4 * var(--h1-font-size));
+  height: auto;
 }
 
 .button {
-  margin-top: 3rem;
+  margin-top: var(--medium-vertical-spacing);
 }
 
 .banner {
-  margin-top: 3rem;
+  margin-top: var(--medium-vertical-spacing);
+}
+
+@media (max-width: 600px) {
+  .title {
+    margin-top: 80px;
+    width: calc(2.5 * var(--h1-font-size));
+  }
 }

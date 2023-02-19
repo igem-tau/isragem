@@ -2,16 +2,15 @@
   background-color: var(--secondary-color);
   border: 5px solid white;
   border-radius: var(--border-radius);
-  min-width: 860px;
-  min-height: 270px;
-  padding: 40px 20px;
+  min-width: calc(4 * var(--h1-font-size));
+  padding: calc(0.85 * var(--medium-vertical-spacing))
+    var(--small-horizontal-spacing);
   color: white;
-  text-align: center;
 }
 
 .title {
   direction: rtl;
-  margin-bottom: 20px;
+  margin-bottom: var(--small-horizontal-spacing);
 }
 
 .times {
@@ -20,15 +19,30 @@
 }
 
 .time {
-  width: 300px;
   border-right: 5px solid white;
-  padding: 0 90px;
 }
 
 .time.last {
   border: none;
 }
 
-.timeText {
-  border: none;
+.time_spacing {
+  width: calc(2 * var(--h1-font-size));
+}
+
+@media (max-width: 600px) {
+  .container {
+    min-width: calc(3 * var(--h1-font-size));
+  }
+
+  .time_spacing {
+    width: var(--h1-font-size);
+  }
+  .time_unit:last-child {
+    display: none;
+  }
+
+  .time_unit:nth-child(3) .time {
+    border: none;
+  }
 }
