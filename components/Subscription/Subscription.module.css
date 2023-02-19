@@ -6,12 +6,12 @@
 }
 
 .title {
-  margin-bottom: 3rem;
+  margin-bottom: var(--medium-vertical-spacing);
 }
 
 .form {
-  width: min(92%, 1300px);
-  margin-bottom: 6rem;
+  width: min(95vw, 1300px);
+  margin-bottom: var(--large-vertical-spacing);
   padding: 10px;
 }
 

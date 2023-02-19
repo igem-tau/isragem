@@ -3,10 +3,12 @@
   display: flex;
   flex-direction: flex-start;
   justify-content: space-between;
-  gap: 3rem;
+  align-items: center;
+  gap: var(--medium-horizontal-spacing);
   flex-wrap: wrap;
   background-color: rgb(255, 255, 255, 0.3);
-  padding: 1.5rem 3rem;
+  padding: var(--small-vertical-spacing) var(--medium-horizontal-spacing);
+  text-align: start;
 }
 
 .credits {

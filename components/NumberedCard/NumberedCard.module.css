@@ -9,6 +9,7 @@
   border-radius: var(--border-radius);
   padding: 45px 25px 25px 25px;
   align-items: center;
+  max-width: 95vw;
 }
 
 .card::before {
@@ -17,14 +18,14 @@
   height: 50px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 
   position: absolute;
   border-radius: 50%;
   border: 5px solid var(--primary-color);
   background-color: white;
   top: -30px;
-  font-size: 3.125rem;
+  font-size: var(--h3-font-size);
 }
 
 .card.accent::before {

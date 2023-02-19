@@ -10,6 +10,7 @@ export default function Overview() {
         imagePath='/iGem_light_Logo.svg'
         imageDescription='iGem logo'
         className={`${styles.large_card} ${styles.single_card}`}
+        imageClassName={styles.large_image}
       />
       <div className={styles.cards}>
         <PictureCard
@@ -17,6 +18,8 @@ export default function Overview() {
           imagePath='/left_tip_image.svg'
           imageDescription='iGem logo'
           isAccent
+          className={styles.card}
+          imageClassName={styles.medium_image}
         />
         <PictureCard
           text='״ביולוגיה סינטטית היא אחד התחומים הטכנולוגיים החמים והמבטיחים כיום בעולם בכלל ובישראל בפרט. מדובר בגישה המשמישה טכנולוגיות קצה שונות ומגוונות, כדי לבצע מניפולציות במערכות חיות ליישומים רבים, המשליכים על כל תחום אפשרי: מבריאות, חקלאות, מזון, סביבה, חומרים ועד ביטחון״ 
@@ -24,6 +27,8 @@ export default function Overview() {
           imagePath='/right_tip_image.svg'
           imageDescription='iGem logo'
           isAccent
+          className={styles.card}
+          imageClassName={styles.medium_image}
         />
       </div>
     </section>
