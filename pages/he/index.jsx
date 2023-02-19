@@ -12,20 +12,20 @@ import overviewStyles from "../../components/Overview/Overview.module.css";
 
 const targetDate = new Date("2023-03-10T23:59:59.999Z").getTime();
 const countDownText = {
-  title: "subscription end in:",
-  daysText: "days",
-  hoursText: "hours",
-  minutesText: "minutes",
-  secondsText: "seconds",
+  title: "ההרשמה תיסגר בעוד:",
+  daysText: "ימים",
+  hoursText: "שעות",
+  minutesText: "דקות",
+  secondsText: "שניות",
 };
-const subscriptionButtonText = "Subscribe Now";
+const subscriptionButtonText = "הירשמו עכשיו";
 const bannerTexts = {
   subscriptionEndDate: "10.3",
-  subscriptionEndText: "subscription end",
+  subscriptionEndText: "סגירת ההרשמה",
   competitionStartDate: "13.3",
-  competitionStartText: "competition start",
+  competitionStartText: "יום הזנקת התחרות",
   finalDate: "27.6",
-  finalText: "final event",
+  finalText: "אירוע הגמר",
 };
 
 const competitionSteps = [
@@ -55,7 +55,7 @@ const competitionSteps = [
 ];
 
 const formSrc =
-  "https://docs.google.com/forms/d/e/1FAIpQLSdvl8ItQhhnjnjDb7OuWi9JWdOdBq91NhZgR9A9Xsw6QyKtQw/viewform?embedded=true";
+  "https://docs.google.com/forms/d/e/1FAIpQLSf-unXjLtd_V8rvm1TJCJHuOZuilVXd8QD12dq3lUjZTQcrCA/viewform?embedded=true";
 
 const overviewInfo = [
   {
@@ -115,10 +115,10 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navigation
-        homeText='Home'
-        competitionStepsText='Competition Steps'
-        subscriptionText='Subscribe'
-        overviewText='Overview'
+        homeText='דף הבית'
+        competitionStepsText='שלבי התחרות'
+        subscriptionText='הירשמו עכשיו'
+        overviewText='על קצה המזלג'
       />
       <main className={styles.main}>
         <Header />
@@ -128,10 +128,13 @@ export default function Home() {
           subscriptionButtonText={subscriptionButtonText}
           bannerTexts={bannerTexts}
         />
-        <CompetitionSteps title='Competition Steps' steps={competitionSteps} />
-        <Subscription title='Subscribe Now' formSrc={formSrc} />
-        <Overview title='Overview' overviewInfo={overviewInfo} />
-        <Examples title='Examples of Synthetic Biology' examples={examples} />
+        <CompetitionSteps title='שלבי התחרות' steps={competitionSteps} />
+        <Subscription title='הירשמו עכשיו' formSrc={formSrc} />
+        <Overview title='על קצה המזלג' overviewInfo={overviewInfo} />
+        <Examples
+          title='דוגמאות לשימוש בביולוגיה סינטטית'
+          examples={examples}
+        />
         <Footer credits={credits} />
       </main>
     </>
