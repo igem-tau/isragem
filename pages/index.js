@@ -106,7 +106,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Isragem</title>
+        <title>Isra-Gem</title>
         <meta
           name='description'
           content='Tel-Aviv University synthetic biology competition'

@@ -13,7 +13,7 @@ export default function Hero({
   return (
     <section className={styles.hero} id='home'>
       <Image
-        src='/ISRAGEM_Logo.svg'
+        src='/ISRAGEM_Logo.png'
         alt='ISRAGEM I'
         width={480}
         height={107}

@@ -9,7 +9,7 @@ export default function Header() {
     <header className={styles.general}>
       <Link href={"/"}>
         <Image
-          src='/ISRAGEM_Logo.svg'
+          src='/ISRAGEM_Logo.png'
           alt='Israem logo'
           className={styles.logo}
           width={193}
