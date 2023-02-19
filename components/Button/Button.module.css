@@ -8,6 +8,8 @@
   transition: all ease-in-out 0.3s;
 }
 
-.button:hover {
-  scale: 1.1;
+@media (hover: hover) {
+  .button:hover {
+    scale: 1.1;
+  }
 }
