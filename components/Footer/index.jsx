@@ -1,18 +1,25 @@
 import Image from "next/image";
 import styles from "./Footer.module.css";
 
-export default function Footer() {
+export default function Footer({ credits }) {
   return (
     <footer className={styles.footer}>
       <div className={styles.credits}>
-        <span>Designed by Cheli Saban</span>
-        <span>Developed by David Haggiag for iGEM TAU 2023</span>
-        <span>
-          Pictures and icons Designed by{" "}
-          <a href='https://www.freepik.com' target='_blank'>
-            <u>www.freepik.com</u>
-          </a>
-        </span>
+        {credits &&
+          credits.map((row, index) =>
+            index + 1 < credits.length ? (
+              <span>{row}</span>
+            ) : (
+              <span>
+                {row}{" "}
+                <u>
+                  <a href='https://www.freepik.com' target='_blank'>
+                    www.freepik.com
+                  </a>
+                </u>
+              </span>
+            )
+          )}
       </div>
       <a href='https://www.tau.ac.il/' target='_blank'>
         <Image

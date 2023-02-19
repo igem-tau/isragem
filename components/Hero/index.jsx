@@ -4,7 +4,12 @@ import Button from "../Button";
 import CountDown from "../CountDown";
 import styles from "./Hero.module.css";
 
-export default function Hero({ targetDate }) {
+export default function Hero({
+  targetDate,
+  countDownText,
+  subscriptionButtonText,
+  bannerTexts,
+}) {
   return (
     <section className={styles.hero} id='home'>
       <Image
@@ -17,25 +22,25 @@ export default function Hero({ targetDate }) {
       />
       <CountDown
         targetDate={targetDate}
-        title='ההרשמה תיסגר בעוד:'
-        daysText='ימים'
-        hoursText='שעות'
-        minutesText='דקות'
-        secondsText='שניות'
+        title={countDownText.title}
+        daysText={countDownText.daysText}
+        hoursText={countDownText.hoursText}
+        minutesText={countDownText.minutesText}
+        secondsText={countDownText.secondsText}
       />
       <Button
-        text='הירשמו עכשיו'
+        text={subscriptionButtonText}
         className={styles.button}
         target='#subscription'
       />
       <Banner
         className={styles.banner}
-        subscriptionEndDate='10.3'
-        subscriptionEndText='סגירת ההרשמה'
-        competitionStartDate='13.3'
-        competitionStartText='יום הזנקת התחרות'
-        finalDate='27.6'
-        finalText='אירוע הגמר'
+        subscriptionEndDate={bannerTexts.subscriptionEndDate}
+        subscriptionEndText={bannerTexts.subscriptionEndText}
+        competitionStartDate={bannerTexts.competitionStartDate}
+        competitionStartText={bannerTexts.competitionStartText}
+        finalDate={bannerTexts.finalDate}
+        finalText={bannerTexts.finalText}
       />
     </section>
   );
