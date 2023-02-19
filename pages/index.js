@@ -128,8 +128,10 @@ export default function Home() {
         <CompetitionSteps title='שלבי התחרות' steps={competitionSteps} />
         <Subscription title='הירשמו עכשיו' />
         <Overview title='על קצה המזלג' overviewInfo={overviewInfo} />
-
-        <Examples examples={examples} />
+        <Examples
+          title='דוגמאות לשימוש בביולוגיה סינטטית'
+          examples={examples}
+        />
         <Footer credits={credits} />
       </main>
     </>

@@ -1,10 +1,10 @@
 import VideoCard from "../VideoCard";
 import styles from "./Examples.module.css";
 
-export default function Examples({ examples }) {
+export default function Examples({ title, examples }) {
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>דוגמאות לשימוש בביולוגיה סינטטית</h2>
+      <h2 className={styles.title}>{title}</h2>
       <div className={styles.cards}>
         {examples &&
           examples.map((example) => (
