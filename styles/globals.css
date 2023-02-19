@@ -37,7 +37,7 @@
 body {
   color: var(--font-primary-color);
   text-align: center;
-  background: url("../public/decorations.svg") right top repeat,
+  background: url("../public/decorations.png") right top repeat,
     repeating-linear-gradient(
       -135deg,
       var(--secondary-color) 0 400px,
@@ -116,7 +116,7 @@ h3 {
   }
 
   body {
-    background: url("../public/decorations_mobile.svg") 0px 15px repeat,
+    background: url("../public/decorations_mobile.png") 0px 15px repeat,
       repeating-linear-gradient(
         -135deg,
         var(--secondary-color) 0 400px,
