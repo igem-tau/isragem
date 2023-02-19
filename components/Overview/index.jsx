@@ -8,8 +8,9 @@ export default function Overview({ title, overviewInfo }) {
       {overviewInfo &&
         overviewInfo
           .slice(0, 1)
-          .map((info) => (
+          .map((info, index) => (
             <PictureCard
+              key={index}
               text={info.text}
               imagePath={info.imagePath}
               imageDescription={info.imageDescription}
@@ -23,8 +24,9 @@ export default function Overview({ title, overviewInfo }) {
         {overviewInfo &&
           overviewInfo
             .slice(1)
-            .map((info) => (
+            .map((info, index) => (
               <PictureCard
+                key={index + 1}
                 text={info.text}
                 imagePath={info.imagePath}
                 imageDescription={info.imageDescription}

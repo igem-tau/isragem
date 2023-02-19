@@ -9,6 +9,7 @@ export default function CompetitionSteps({ title, steps }) {
         {steps &&
           steps.map((step, index) => (
             <NumberedCard
+              key={index}
               number={index + 1}
               text={step.text}
               imagePath={step.imagePath}

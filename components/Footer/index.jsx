@@ -8,9 +8,9 @@ export default function Footer({ credits }) {
         {credits &&
           credits.map((row, index) =>
             index + 1 < credits.length ? (
-              <span>{row}</span>
+              <span key={index}>{row}</span>
             ) : (
-              <span>
+              <span key={index}>
                 {row}{" "}
                 <u>
                   <a href='https://www.freepik.com' target='_blank'>

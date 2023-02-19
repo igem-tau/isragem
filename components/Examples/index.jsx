@@ -7,8 +7,9 @@ export default function Examples({ title, examples }) {
       <h2 className={styles.title}>{title}</h2>
       <div className={styles.cards}>
         {examples &&
-          examples.map((example) => (
+          examples.map((example, index) => (
             <VideoCard
+              key={index}
               text={example.text}
               videoSrc={example.videoSrc}
               videoTitle={example.videoTitle}
