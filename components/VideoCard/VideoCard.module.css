@@ -4,13 +4,11 @@
 }
 
 .video {
-  width: 600px;
-  aspect-ratio: auto;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
   .video {
-    max-width: 83vw;
     height: auto;
   }
 }

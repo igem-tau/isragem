@@ -21,5 +21,11 @@
 
 .card {
   direction: rtl;
-  width: 650px;
+  width: min(47.5%, 650px);
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 95vw;
+  }
 }
