@@ -27,12 +27,8 @@
   padding: var(--medium-vertical-spacing) var(--small-vertical-spacing);
 }
 
-.large_card {
-  max-width: 70%;
-}
-
-.large_image {
-  width: 480px;
+.small_image {
+  width: 320px;
 }
 
 .medium_image {
@@ -40,16 +36,8 @@
 }
 
 @media (max-width: 600px) {
-  .large_card {
-    max-width: 95vw;
-  }
-
   .single_card {
     margin-bottom: var(--medium-vertical-spacing);
-  }
-
-  .large_image {
-    width: 320px;
   }
 
   .medium_image {

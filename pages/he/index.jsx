@@ -63,8 +63,8 @@ const overviewInfo = [
     text: "פרויקט ה- iGEM הינו פרויקט ייחודי, בו סטודנטים מאוניברסיטאות מכל העולם מתבקשים ליזום פרויקט מחקר בתחום הביולוגיה הסינתטית, ולבסוף להציג את תוצאותיהם בתחרות בינלאומית המתקיימת מדי שנה בפריז. הרעיון מאחורי תחרות הISRAGEM הוא לאפשר לתלמידי תיכון בישראל להתנסות בחוויה דומה.",
     imagePath: "/iGem_light_Logo.svg",
     imageDescription: "iGem logo",
-    className: `${overviewStyles.large_card} ${overviewStyles.single_card}`,
-    imageClassName: overviewStyles.large_image,
+    className: `${overviewStyles.single_card}`,
+    imageClassName: overviewStyles.small_image,
   },
   {
     text: "תחום הביולוגיה הסינתטית הוא תחום מולטי-דיסיפילנרי וצעיר המשלב את עולם ההנדסה ומדעי המחשב עם מדעי החיים. הביולוגיה הסינתטית משלבת רעיונות ועקרונות מהעולמות השונים במטרה לתכנן ולבנות רכיבים או מערכות שלמות שלא ניתן למצוא כדוגמתם בטבע.",
