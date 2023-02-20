@@ -1,8 +1,4 @@
 :root {
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-
   --primary-color: #94d2eb;
   --secondary-color: #4091cc;
   --accent-color: #fad940;
@@ -45,6 +41,7 @@ body {
       var(--primary-color) 405px 1155px,
       white 1155px 1160px
     );
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   min-height: 100svh;
   letter-spacing: 0.07rem;
 }
