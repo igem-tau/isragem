@@ -14,6 +14,7 @@ export default function Examples({ title, examples }) {
               videoSrc={example.videoSrc}
               videoTitle={example.videoTitle}
               className={styles.card}
+              isAccent
             />
           ))}
       </div>
