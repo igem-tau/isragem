@@ -121,7 +121,7 @@ export default function Home() {
         overviewText='Overview'
       />
       <main className={styles.main}>
-        <Header />
+        <Header otherLanguagePath='/he' />
         <Hero
           targetDate={targetDate}
           countDownText={countDownText}

@@ -25,20 +25,25 @@
   width: 100px;
 }
 
-.navigation {
+.nav_container {
+  margin-left: calc(150px - 25px);
   display: flex;
-  align-content: center;
+  gap: var(--small-horizontal-spacing);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
   justify-content: center;
   width: 35px;
   height: 35px;
   border-radius: 50%;
   background-color: black;
   cursor: pointer;
-  margin-left: calc(150px - 25px);
+  color: var(--accent-color);
 }
 
 .nav_icon {
-  color: var(--accent-color);
   width: 18px;
 }
 

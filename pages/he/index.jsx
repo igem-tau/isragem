@@ -121,7 +121,7 @@ export default function Home() {
         overviewText='על קצה המזלג'
       />
       <main className={styles.main}>
-        <Header />
+        <Header otherLanguagePath='/en' />
         <Hero
           targetDate={targetDate}
           countDownText={countDownText}

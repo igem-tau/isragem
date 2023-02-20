@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "./Header.module.css";
 import Link from "next/link";
 
-export default function Header() {
+export default function Header({ otherLanguagePath }) {
   return (
     <header className={styles.general}>
       <Link href={"/"}>
@@ -49,11 +49,23 @@ export default function Header() {
           />
         </a>
       </div>
-      <a href='#navigation'>
-        <span className={styles.navigation}>
-          <FontAwesomeIcon icon={faBars} className={styles.nav_icon} />
-        </span>
-      </a>
+      <div className={styles.nav_container}>
+        <Link href={otherLanguagePath}>
+          <span className={styles.icon}>
+            <Image
+              src='/language_switch_icon.svg'
+              alt='site language switch icon'
+              width={28}
+              height={28}
+            />
+          </span>
+        </Link>
+        <a href='#navigation'>
+          <span className={styles.icon}>
+            <FontAwesomeIcon icon={faBars} className={styles.nav_icon} />
+          </span>
+        </a>
+      </div>
     </header>
   );
 }
