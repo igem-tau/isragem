@@ -13,6 +13,7 @@ export default function CompetitionSteps({ title, steps }) {
               number={index + 1}
               text={step.text}
               imagePath={step.imagePath}
+              imageDescription={step.imageDescription}
               question={step.question}
               answer={step.answer}
               isAccentColor={step.isAccentColor}
