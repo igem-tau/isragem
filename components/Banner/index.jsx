@@ -4,7 +4,7 @@ function Event({ date, title }) {
   return (
     <div className={styles.event}>
       <h2>{date}</h2>
-      <h2>{title}</h2>
+      <h3>{title}</h3>
     </div>
   );
 }
