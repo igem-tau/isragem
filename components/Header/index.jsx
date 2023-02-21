@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Header({ otherLanguagePath }) {
   return (
     <header className={styles.general}>
-      <Link href={"/"}>
+      <Link href={"#"}>
         <Image
           src='/ISRAGEM_Logo.png'
           alt='Israem logo'
