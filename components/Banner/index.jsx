@@ -16,10 +16,11 @@ export default function Banner({
   competitionStartText,
   finalDate,
   finalText,
+  direction,
   className = "",
 }) {
   return (
-    <div className={`${styles.banner} ${className}`}>
+    <div className={`${styles.banner} ${className}`} style={{ direction }}>
       <Event date={subscriptionEndDate} title={subscriptionEndText} />
       <Event date={competitionStartDate} title={competitionStartText} />
       <Event date={finalDate} title={finalText} />

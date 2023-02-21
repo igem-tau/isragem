@@ -48,6 +48,7 @@ export default function CountDown({
   hoursText = "hours",
   minutesText = "minutes",
   secondsText = "seconds",
+  direction = "ltr",
 }) {
   const [days, setDays] = useState("--");
   const [hours, setHours] = useState("--");
@@ -73,7 +74,9 @@ export default function CountDown({
 
   return (
     <div className={styles.container}>
-      <h3 className={styles.title}>{title}</h3>
+      <h3 className={styles.title} style={{ direction }}>
+        {title}
+      </h3>
       <div className={styles.times}>
         <TimeUnit time={days} text={daysText} />
         <TimeUnit time={hours} text={hoursText} />

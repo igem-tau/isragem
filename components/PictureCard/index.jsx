@@ -9,11 +9,14 @@ export default function PictureCard({
   imageWidth,
   className = "",
   imageClassName = "",
+  direction = "ltr",
   ...props
 }) {
   return (
     <Card className={`${styles.card} ${className}`} {...props}>
-      <p className={styles.text}>{text}</p>
+      <p className={styles.text} style={{ direction }}>
+        {text}
+      </p>
       <Image
         src={imagePath}
         alt={imageDescription}

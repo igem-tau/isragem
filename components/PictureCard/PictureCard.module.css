@@ -9,7 +9,6 @@
 .text {
   font-size: var(--large-font-size);
   margin-bottom: var(--medium-vertical-spacing);
-  direction: rtl;
 }
 
 .image {

@@ -16,11 +16,9 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  direction: rtl;
 }
 
 .card {
-  direction: rtl;
   width: min(47.5%, 650px);
 }
 
