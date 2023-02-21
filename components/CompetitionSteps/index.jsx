@@ -1,11 +1,11 @@
 import NumberedCard from "../NumberedCard";
 import styles from "./CompetitionSteps.module.css";
 
-export default function CompetitionSteps({ title, steps }) {
+export default function CompetitionSteps({ title, steps, direction = "ltr" }) {
   return (
     <section className={styles.container} id='competition_steps'>
       <h2>{title}</h2>
-      <div className={styles.steps}>
+      <div className={styles.steps} style={{ direction }}>
         {steps &&
           steps.map((step, index) => (
             <NumberedCard

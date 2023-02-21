@@ -9,6 +9,5 @@
   column-gap: var(--small-horizontal-spacing);
   row-gap: var(--large-vertical-spacing);
   margin-top: var(--medium-vertical-spacing);
-  direction: rtl;
   margin-bottom: var(--large-vertical-spacing);
 }

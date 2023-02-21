@@ -1,7 +1,7 @@
 import PictureCard from "../PictureCard";
 import styles from "./Overview.module.css";
 
-export default function Overview({ title, overviewInfo }) {
+export default function Overview({ title, overviewInfo, direction = "ltr" }) {
   return (
     <section className={styles.container} id='overview'>
       <h2 className={styles.title}>{title}</h2>
@@ -17,10 +17,11 @@ export default function Overview({ title, overviewInfo }) {
               isAccent={info.isAccent}
               className={info.className}
               imageClassName={info.imageClassName}
+              direction={direction}
             />
           ))}
 
-      <div className={styles.cards}>
+      <div className={styles.cards} style={{ direction }}>
         {overviewInfo &&
           overviewInfo
             .slice(1)
@@ -33,6 +34,7 @@ export default function Overview({ title, overviewInfo }) {
                 isAccent={info.isAccent}
                 className={info.className}
                 imageClassName={info.imageClassName}
+                direction={direction}
               />
             ))}
       </div>

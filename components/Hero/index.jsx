@@ -9,6 +9,7 @@ export default function Hero({
   countDownText,
   subscriptionButtonText,
   bannerTexts,
+  direction = "ltr",
 }) {
   return (
     <section className={styles.hero} id='home'>
@@ -27,6 +28,7 @@ export default function Hero({
         hoursText={countDownText.hoursText}
         minutesText={countDownText.minutesText}
         secondsText={countDownText.secondsText}
+        direction={direction}
       />
       <Button
         text={subscriptionButtonText}
@@ -41,6 +43,7 @@ export default function Hero({
         competitionStartText={bannerTexts.competitionStartText}
         finalDate={bannerTexts.finalDate}
         finalText={bannerTexts.finalText}
+        direction={direction}
       />
     </section>
   );

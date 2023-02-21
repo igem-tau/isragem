@@ -19,7 +19,6 @@
   justify-content: center;
   column-gap: 40px;
   row-gap: var(--medium-vertical-spacing);
-  direction: rtl;
   margin-bottom: var(--large-vertical-spacing);
 }
 

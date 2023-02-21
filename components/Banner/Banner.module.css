@@ -8,7 +8,6 @@
   border-bottom: 10px solid white;
   padding: var(--small-horizontal-spacing);
   margin-bottom: var(--large-vertical-spacing);
-  direction: rtl;
 }
 
 .event {

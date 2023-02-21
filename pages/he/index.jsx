@@ -10,6 +10,8 @@ import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import overviewStyles from "../../components/Overview/Overview.module.css";
 
+const direction = "rtl";
+
 const targetDate = new Date("2023-03-10T23:59:59.999Z").getTime();
 const countDownText = {
   title: "ההרשמה תיסגר בעוד:",
@@ -128,13 +130,23 @@ export default function Home() {
           countDownText={countDownText}
           subscriptionButtonText={subscriptionButtonText}
           bannerTexts={bannerTexts}
+          direction={direction}
         />
-        <CompetitionSteps title='שלבי התחרות' steps={competitionSteps} />
+        <CompetitionSteps
+          title='שלבי התחרות'
+          steps={competitionSteps}
+          direction={direction}
+        />
         <Subscription title='הירשמו עכשיו' formSrc={formSrc} />
-        <Overview title='על קצה המזלג' overviewInfo={overviewInfo} />
+        <Overview
+          title='על קצה המזלג'
+          overviewInfo={overviewInfo}
+          direction={direction}
+        />
         <Examples
           title='דוגמאות לשימוש בביולוגיה סינתטית'
           examples={examples}
+          direction={direction}
         />
         <Footer credits={credits} />
       </main>
