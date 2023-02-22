@@ -52,6 +52,9 @@ export default async function handler(req, res) {
     const info = await transporter.sendMail(getDetails(email, language));
     res.status(200).json({ success: true });
   } catch (error) {
+    console.error(
+      `${new Date().toISOString()} - an error has occurred: ${{ info, error }}`
+    );
     res.status(500).json({ success: false });
   }
 }
