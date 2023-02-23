@@ -16,6 +16,12 @@
   margin-top: var(--medium-vertical-spacing);
 }
 
+.teachers_subscription_link {
+  margin-top: var(--small-vertical-spacing);
+  font-size: var(--large-font-size);
+  text-decoration: underline;
+}
+
 .banner {
   margin-top: var(--medium-vertical-spacing);
 }

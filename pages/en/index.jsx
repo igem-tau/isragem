@@ -9,6 +9,7 @@ import Examples from "@/components/Examples";
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import overviewStyles from "../../components/Overview/Overview.module.css";
+import TeacherSubscription from "@/components/TeacherSubscription";
 
 const targetDate = new Date("2023-03-10T23:59:59.999Z").getTime();
 const countDownText = {
@@ -98,6 +99,25 @@ const examples = [
   },
 ];
 
+const teachersSubscriptionTexts = {
+  link: "subscribe to explanation zoom meeting",
+  title: "zoom explanation meeting subscription",
+  information: [
+    "especially for you we organized two zoom meetings for teachers on the 01.03 and 05.03 at 18:00",
+    "to get the link, send your email address",
+  ],
+  labelText: "email",
+  placeholderText: "example@mail.com",
+  sendText: "send",
+  sentMessage: "an email with the details has been sent to you",
+  errorsTexts: {
+    required: "this field is required",
+    invalid: "invalid email address",
+    server_error: "an unexpected error has occurred, please try again later",
+  },
+  language: "en",
+};
+
 const credits = [
   "Designed by Cheli Saban",
   "Developed by David Haggiag for iGEM TAU 2023",
@@ -128,12 +148,23 @@ export default function Home() {
           targetDate={targetDate}
           countDownText={countDownText}
           subscriptionButtonText={subscriptionButtonText}
+          teachers_subscription_link={teachersSubscriptionTexts.link}
           bannerTexts={bannerTexts}
         />
         <CompetitionSteps title='Competition Steps' steps={competitionSteps} />
         <Subscription title='Subscribe Now' formSrc={formSrc} />
         <Overview title='Overview' overviewInfo={overviewInfo} />
         <Examples title='Examples of Synthetic Biology' examples={examples} />
+        <TeacherSubscription
+          title={teachersSubscriptionTexts.title}
+          text={teachersSubscriptionTexts.information}
+          labelText={teachersSubscriptionTexts.labelText}
+          placeholderText={teachersSubscriptionTexts.placeholderText}
+          sendText={teachersSubscriptionTexts.sendText}
+          sentMessage={teachersSubscriptionTexts.sentMessage}
+          errorsTexts={teachersSubscriptionTexts.errorsTexts}
+          language={teachersSubscriptionTexts.language}
+        />
         <Footer credits={credits} />
       </main>
     </>

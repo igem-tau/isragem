@@ -8,6 +8,7 @@ export default function Hero({
   targetDate,
   countDownText,
   subscriptionButtonText,
+  teachers_subscription_link,
   bannerTexts,
   direction = "ltr",
 }) {
@@ -35,6 +36,12 @@ export default function Hero({
         className={styles.button}
         target='#subscription'
       />
+      <a
+        className={styles.teachers_subscription_link}
+        href='#teachers_subscription'
+      >
+        <p>{teachers_subscription_link}</p>
+      </a>
       <Banner
         className={styles.banner}
         subscriptionEndDate={bannerTexts.subscriptionEndDate}
