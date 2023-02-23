@@ -52,7 +52,7 @@ const heTexts = {
   link: "https://us02web.zoom.us/j/7081725319",
   post_links: "נשמח לראותכם במפגש.",
   closing: "בברכה",
-  signature: "צוות Isra-Gen",
+  signature: "צוות Isra-Gem",
 };
 
 const enTexts = {
@@ -65,7 +65,7 @@ const enTexts = {
   link: "https://us02web.zoom.us/j/7081725319",
   post_links: "We hope to see you there.",
   closing: "Best regards",
-  signature: "The Isra-Gen team",
+  signature: "The Isra-Gem team",
 };
 
 const texts = {
