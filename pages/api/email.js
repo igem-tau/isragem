@@ -48,8 +48,9 @@ export default async function handler(req, res) {
   const request_obj = JSON.parse(req.body);
   const { email, language } = request_obj;
 
+  let info;
   try {
-    const info = await transporter.sendMail(getDetails(email, language));
+    info = await transporter.sendMail(getDetails(email, language));
     res.status(200).json({ success: true });
   } catch (error) {
     console.error(
