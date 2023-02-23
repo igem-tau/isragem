@@ -13,10 +13,8 @@ const getHTML = (
   {
     greetings,
     invite,
-    pre_meetings_dates,
-    meetings_dates,
-    pre_link,
-    link,
+    pre_meetings_info,
+    meetings,
     post_links,
     closing,
     signature,
@@ -31,10 +29,12 @@ const getHTML = (
         <p>${greetings},</p>
         <br />
         <p>${invite}</p>
-        <p>${pre_meetings_dates}</p>
-        <p>${meetings_dates}</p>
-        <p>${pre_link}</p>
-        <a href="${link}" style="display:block; direction: ltr;">${link}</a>
+        <p>${pre_meetings_info}</p>
+        ${meetings
+          .map(
+            ({ info, link }) => `<p>${info} - <a href="${link}">${link}</a><p/>`
+          )
+          .join("")}
         <p>${post_links}</p>
         <br />
         <p>${closing},</p>
@@ -45,11 +45,17 @@ const getHTML = (
 const heTexts = {
   greetings: "שלום רב",
   invite: "אנחנו שמחים להזמין אותך למפגש הסברה על תחרות Isra-Gem.",
-  pre_meetings_dates: "המפגש יתקיים באופן דיגיטלי בשני מועדים:",
-  meetings_dates:
-    "יום רביעי (01.03) בשעה 18:00  ויום ראשון (05.03) בשעה 18:00.",
-  pre_link: "להלן הלינקים למפגשים:",
-  link: "https://us02web.zoom.us/j/7081725319",
+  pre_meetings_info: "המפגש יתקיים באופן דיגיטלי בשני מועדים:",
+  meetings: [
+    {
+      info: "יום רביעי (01.03) בשעה 18:00",
+      link: "https://tau-ac-il.zoom.us/j/88508681221",
+    },
+    {
+      info: "יום ראשון (05.03) בשעה 18:00",
+      link: "https://tau-ac-il.zoom.us/j/82160952596",
+    },
+  ],
   post_links: "נשמח לראותכם במפגש.",
   closing: "בברכה",
   signature: "צוות Isra-Gem",
@@ -57,12 +63,19 @@ const heTexts = {
 
 const enTexts = {
   greetings: "Hi there",
-  invite: "You're invited to an informative meeting about the Isra-Gem",
-  pre_meetings_dates:
-    "Competition, which will be held digitally on two dates: ",
-  meetings_dates: "Wednesday (03.01) at 18:00 and Sunday (03.05) at 18:00. ",
-  pre_link: "Below are the links to the meetings:",
-  link: "https://us02web.zoom.us/j/7081725319",
+  invite:
+    "You're invited to an informative meeting about the Isra-Gem competition,",
+  pre_meetings_info: "which will be held digitally on two dates: ",
+  meetings: [
+    {
+      info: "Wednesday (03.01) at 18:00",
+      link: "https://tau-ac-il.zoom.us/j/88508681221",
+    },
+    {
+      info: "Sunday (03.05) at 18:00",
+      link: "https://tau-ac-il.zoom.us/j/82160952596",
+    },
+  ],
   post_links: "We hope to see you there.",
   closing: "Best regards",
   signature: "The Isra-Gem team",
