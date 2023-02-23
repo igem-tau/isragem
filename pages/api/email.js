@@ -54,7 +54,11 @@ export default async function handler(req, res) {
     res.status(200).json({ success: true });
   } catch (error) {
     console.error(
-      `${new Date().toISOString()} - an error has occurred: ${{ info, error }}`
+      `${new Date().toISOString()} - an error has occurred: ${JSON.stringify(
+        { info, error },
+        null,
+        2
+      )}`
     );
     res.status(500).json({ success: false });
   }
