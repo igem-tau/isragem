@@ -102,21 +102,24 @@ const getDetails = (toEmail, language) => {
 };
 
 export default async function handler(req, res) {
-  const request_obj = JSON.parse(req.body);
-  const { email, language } = request_obj;
-
-  let info;
-  try {
-    info = await transporter.sendMail(getDetails(email, language));
-    res.status(200).json({ success: true });
-  } catch (error) {
-    console.error(
-      `${new Date().toISOString()} - an error has occurred: ${JSON.stringify(
-        { info, error },
-        null,
-        2
-      )}`
-    );
-    res.status(500).json({ success: false });
+  if (req.method == "POST") {
+    let info;
+    try {
+      const { email, language } = req.body;
+      info = await transporter.sendMail(getDetails(email, language));
+      res.status(200).json({ success: true });
+    } catch (error) {
+      console.error(
+        `${new Date().toISOString()} - an error has occurred: ${JSON.stringify(
+          { info, error },
+          null,
+          2
+        )}`
+      );
+      res.status(500).json({ success: false });
+    }
+  } else {
+    // 405 Method Not Allowed
+    res.status(405).json({ message: "Invalid api usage" });
   }
 }
