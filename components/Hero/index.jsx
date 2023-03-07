@@ -8,7 +8,6 @@ export default function Hero({
   targetDate,
   countDownText,
   subscriptionButtonText,
-  teachers_subscription_link,
   bannerTexts,
   direction = "ltr",
 }) {
