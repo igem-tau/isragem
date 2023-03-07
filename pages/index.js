@@ -9,7 +9,6 @@ import Examples from "@/components/Examples";
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import overviewStyles from "../components/Overview/Overview.module.css";
-import TeacherSubscription from "@/components/TeacherSubscription";
 
 const direction = "rtl";
 
@@ -100,25 +99,6 @@ const examples = [
   },
 ];
 
-const teachersSubscriptionTexts = {
-  link: "לחצו כאן להרשמה למפגש הסברה למורים",
-  title: "הרשמה למפגש הסברה בזום",
-  information: [
-    "במיוחד בשבילכם אנחנו מקיימים שתי פגישות זום למורים בתאריכים ה-01.03 וה-05.03 בשעה 18:00",
-    "לקבלת לינק שלחו לנו את המייל שלכם",
-  ],
-  labelText: "אימייל",
-  placeholderText: "example@mail.com",
-  sendText: "שלח",
-  sentMessage: "נשלח אליך מייל עם הפרטים",
-  errorsTexts: {
-    required: "חובה למלא את מייל לפני השליחה",
-    invalid: "כתובת המייל איננה תקינה",
-    server_error: "קרתה תקלה, אנא נסה שוב במועד מאוחר יותר",
-  },
-  language: "he",
-};
-
 const credits = [
   "Designed by Cheli Saban",
   "Developed by David Haggiag for iGEM TAU 2023",
@@ -149,7 +129,6 @@ export default function Home() {
           targetDate={targetDate}
           countDownText={countDownText}
           subscriptionButtonText={subscriptionButtonText}
-          teachers_subscription_link={teachersSubscriptionTexts.link}
           bannerTexts={bannerTexts}
           direction={direction}
         />
@@ -167,17 +146,6 @@ export default function Home() {
         <Examples
           title='דוגמאות לשימוש בביולוגיה סינתטית'
           examples={examples}
-          direction={direction}
-        />
-        <TeacherSubscription
-          title={teachersSubscriptionTexts.title}
-          text={teachersSubscriptionTexts.information}
-          labelText={teachersSubscriptionTexts.labelText}
-          placeholderText={teachersSubscriptionTexts.placeholderText}
-          sendText={teachersSubscriptionTexts.sendText}
-          sentMessage={teachersSubscriptionTexts.sentMessage}
-          errorsTexts={teachersSubscriptionTexts.errorsTexts}
-          language={teachersSubscriptionTexts.language}
           direction={direction}
         />
         <Footer credits={credits} />
