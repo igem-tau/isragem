@@ -9,12 +9,12 @@ import Examples from "@/components/Examples";
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import overviewStyles from "../../components/Overview/Overview.module.css";
+import { targetDate } from "@/constants";
 
 const direction = "rtl";
 
-const targetDate = new Date("2023-03-10T23:59:59.999Z").getTime();
 const countDownText = {
-  title: "ההרשמה תיסגר בעוד:",
+  title: "התחרות תתחיל בעוד:",
   daysText: "ימים",
   hoursText: "שעות",
   minutesText: "דקות",
