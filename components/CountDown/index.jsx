@@ -54,6 +54,7 @@ export default function CountDown({
   const [hours, setHours] = useState("--");
   const [minutes, setMinutes] = useState("--");
   const [seconds, setSeconds] = useState("--");
+  const [timeLeftInSeconds, setTimeLeftInSeconds] = useState(0);
 
   useEffect(() => {
     const timeInterval = setInterval(() => {
@@ -63,6 +64,22 @@ export default function CountDown({
         minutes: newMinutes,
         seconds: newSeconds,
       } = getTimeLeft(targetDate);
+
+      const diff = [newDays, newHours, newMinutes, newSeconds].reduce(
+        (accumulator, currentValue) => accumulator + currentValue
+      );
+
+      setTimeLeftInSeconds(Math.max(0, diff));
+
+      if (diff <= 0) {
+        setDays(0);
+        setHours(0);
+        setMinutes(0);
+        setSeconds(0);
+        clearInterval(timeInterval);
+        return;
+      }
+
       setDays(newDays);
       setHours(newHours);
       setMinutes(newMinutes);
@@ -74,6 +91,7 @@ export default function CountDown({
 
   return (
     <div className={styles.container}>
+      {!timeLeftInSeconds && <div className={styles.end_of_time} />}
       <h3 className={styles.title} style={{ direction }}>
         {title}
       </h3>

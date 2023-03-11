@@ -9,10 +9,10 @@ import Examples from "@/components/Examples";
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import overviewStyles from "../../components/Overview/Overview.module.css";
+import { targetDate } from "@/constants";
 
-const targetDate = new Date("2023-03-10T23:59:59.999Z").getTime();
 const countDownText = {
-  title: "subscription end in:",
+  title: "competition starts in:",
   daysText: "days",
   hoursText: "hours",
   minutesText: "minutes",
