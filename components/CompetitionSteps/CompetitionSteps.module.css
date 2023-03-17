@@ -1,5 +1,11 @@
 .container {
+  position: relative;
   width: min(95vw, 1300);
+}
+
+.nav_target {
+  position: absolute;
+  top: calc(-1 * var(--h2-font-size));
 }
 
 .steps {

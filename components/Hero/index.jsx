@@ -37,10 +37,10 @@ export default function Hero({
       />
       <Banner
         className={styles.banner}
-        subscriptionEndDate={bannerTexts.subscriptionEndDate}
-        subscriptionEndText={bannerTexts.subscriptionEndText}
         competitionStartDate={bannerTexts.competitionStartDate}
         competitionStartText={bannerTexts.competitionStartText}
+        videoSubmissionEndDate={bannerTexts.videoSubmissionEndDate}
+        videoSubmissionEndText={bannerTexts.videoSubmissionEndText}
         finalDate={bannerTexts.finalDate}
         finalText={bannerTexts.finalText}
         direction={direction}

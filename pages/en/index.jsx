@@ -10,9 +10,10 @@ import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import overviewStyles from "../../components/Overview/Overview.module.css";
 import { targetDate } from "@/constants";
+import Tutorials from "@/components/Tutorials";
 
 const countDownText = {
-  title: "competition starts in:",
+  title: "video submission ends in:",
   daysText: "days",
   hoursText: "hours",
   minutesText: "minutes",
@@ -20,10 +21,10 @@ const countDownText = {
 };
 const subscriptionButtonText = "Subscribe Now";
 const bannerTexts = {
-  subscriptionEndDate: "10.3",
-  subscriptionEndText: "subscription end",
   competitionStartDate: "13.3",
   competitionStartText: "competition start",
+  videoSubmissionEndDate: "23.4",
+  videoSubmissionEndText: "video submission",
   finalDate: "27.6",
   finalText: "final event",
 };
@@ -55,6 +56,26 @@ const competitionSteps = [
     isAccentColor: true,
   },
 ];
+
+const tutorialData = {
+  tutorialVideos: [
+    {
+      text: "what defines a good solution?",
+      src: "https://www.youtube.com/embed/-MKs1F8f0Ts",
+    },
+    {
+      text: "Entrepreneurship",
+      src: "https://www.youtube.com/embed/BpLMzllnTRI",
+    },
+    {
+      text: "Video example for an idea",
+      src: "https://www.youtube.com/embed/BK7btkmj8a8",
+    },
+  ],
+  videoInstructionsText: "watch the full video instructions",
+  videoInstructionsLink:
+    "https://docs.google.com/document/d/1lBGNLh6HCA-wWWO1Uqspe05K6REqHEpYS4jrFCGhUE4/export?format=pdf",
+};
 
 const formSrc =
   "https://docs.google.com/forms/d/e/1FAIpQLSdvl8ItQhhnjnjDb7OuWi9JWdOdBq91NhZgR9A9Xsw6QyKtQw/viewform?embedded=true";
@@ -119,6 +140,7 @@ export default function Home() {
       <Navigation
         homeText='Home'
         competitionStepsText='Competition Steps'
+        tutorialsText='Tutorial Videos'
         subscriptionText='Subscribe'
         overviewText='Overview'
       />
@@ -131,6 +153,12 @@ export default function Home() {
           bannerTexts={bannerTexts}
         />
         <CompetitionSteps title='Competition Steps' steps={competitionSteps} />
+        <Tutorials
+          title='Tutorial Videos'
+          videoInstructionsText={tutorialData.videoInstructionsText}
+          videoInstructionsLink={tutorialData.videoInstructionsLink}
+          videos={tutorialData.tutorialVideos}
+        />
         <Subscription title='Subscribe Now' formSrc={formSrc} />
         <Overview title='Overview' overviewInfo={overviewInfo} />
         <Examples title='Examples of Synthetic Biology' examples={examples} />

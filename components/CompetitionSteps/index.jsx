@@ -3,7 +3,8 @@ import styles from "./CompetitionSteps.module.css";
 
 export default function CompetitionSteps({ title, steps, direction = "ltr" }) {
   return (
-    <section className={styles.container} id='competition_steps'>
+    <section className={styles.container}>
+      <span className={styles.nav_target} id='competition_steps' />
       <h2>{title}</h2>
       <div className={styles.steps} style={{ direction }}>
         {steps &&

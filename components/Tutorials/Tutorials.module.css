@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  width: min(90%, 1300px);
+  margin-bottom: var(--large-vertical-spacing);
+}
+
+.nav_target {
+  position: absolute;
+  top: calc(-1 * var(--h2-font-size));
+}
+
+.title {
+  margin-bottom: var(--medium-vertical-spacing);
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--medium-vertical-spacing);
+}
+
+.video_text {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.video {
+  flex-grow: 1;
+}
+
+.instructions_link {
+  margin-top: var(--medium-vertical-spacing);
+  font-size: var(--large-font-size);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .videos {
+    gap: 20px;
+  }
+}

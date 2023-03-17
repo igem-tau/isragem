@@ -1,8 +1,14 @@
 .container {
-  width: min(90%, 1300);
+  position: relative;
+  width: min(90%, 1300px);
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.nav_target {
+  position: absolute;
+  top: calc(-1 * var(--h2-font-size));
 }
 
 .title {
