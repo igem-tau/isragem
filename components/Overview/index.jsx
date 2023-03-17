@@ -3,7 +3,8 @@ import styles from "./Overview.module.css";
 
 export default function Overview({ title, overviewInfo, direction = "ltr" }) {
   return (
-    <section className={styles.container} id='overview'>
+    <section className={styles.container}>
+      <span className={styles.nav_target} id='overview' />
       <h2 className={styles.title}>{title}</h2>
       {overviewInfo &&
         overviewInfo

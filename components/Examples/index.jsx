@@ -4,6 +4,7 @@ import styles from "./Examples.module.css";
 export default function Examples({ title, examples, direction = "ltr" }) {
   return (
     <section className={styles.container}>
+      <span className={styles.nav_target} id='examples' />
       <h2 className={styles.title}>{title}</h2>
       <div className={styles.cards} style={{ direction }}>
         {examples &&

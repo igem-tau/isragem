@@ -1,6 +1,12 @@
 .container {
+  position: relative;
   width: min(90%, 1300px);
   margin-bottom: var(--large-vertical-spacing);
+}
+
+.nav_target {
+  position: absolute;
+  top: calc(-1 * var(--h2-font-size));
 }
 
 .title {
