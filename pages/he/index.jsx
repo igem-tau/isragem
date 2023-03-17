@@ -72,7 +72,7 @@ const tutorialData = {
   ],
   videoInstructionsText: "לצפייה במכוון המלא ליצירת הסרטון",
   videoInstructionsLink:
-    "https://drive.google.com/file/d/1lBGNLh6HCA-wWWO1Uqspe05K6REqHEpYS4jrFCGhUE4/view",
+    "https://docs.google.com/document/d/1lBGNLh6HCA-wWWO1Uqspe05K6REqHEpYS4jrFCGhUE4/export?format=pdf",
 };
 
 const formSrc =

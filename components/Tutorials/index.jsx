@@ -28,9 +28,7 @@ export default function Tutorials({
           ))}
       </div>
       <p className={styles.instructions_link}>
-        <a href={videoInstructionsLink} target='_blank'>
-          {videoInstructionsText}
-        </a>
+        <a href={videoInstructionsLink}>{videoInstructionsText}</a>
       </p>
     </section>
   );
