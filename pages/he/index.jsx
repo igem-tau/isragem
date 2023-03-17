@@ -58,6 +58,18 @@ const competitionSteps = [
   },
 ];
 
+const tutorialVideos = [
+  {
+    text: "מה מגדיר פתרון טוב?",
+    src: "https://www.youtube.com/embed/-MKs1F8f0Ts",
+  },
+  { text: "יזמות", src: "https://www.youtube.com/embed/BpLMzllnTRI" },
+  {
+    text: "דוגמא לסרטון עבור התחרות",
+    src: "https://www.youtube.com/embed/BK7btkmj8a8",
+  },
+];
+
 const formSrc =
   "https://docs.google.com/forms/d/e/1FAIpQLSf-unXjLtd_V8rvm1TJCJHuOZuilVXd8QD12dq3lUjZTQcrCA/viewform?embedded=true";
 
@@ -136,6 +148,11 @@ export default function Home() {
         <CompetitionSteps
           title='שלבי התחרות'
           steps={competitionSteps}
+          direction={direction}
+        />
+        <Tutorials
+          title='סרטוני הדרכה'
+          videos={tutorialVideos}
           direction={direction}
         />
         <Subscription title='הירשמו עכשיו' formSrc={formSrc} />

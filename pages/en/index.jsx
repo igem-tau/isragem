@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import overviewStyles from "../../components/Overview/Overview.module.css";
 import { targetDate } from "@/constants";
+import Tutorials from "@/components/Tutorials";
 
 const countDownText = {
   title: "video submission ends in:",
@@ -53,6 +54,21 @@ const competitionSteps = [
     question: "A prize will be given to the winning team!",
     answer: "Still not registered? Hurry up and register your team.",
     isAccentColor: true,
+  },
+];
+
+const tutorialVideos = [
+  {
+    text: "what defines a good solution?",
+    src: "https://www.youtube.com/embed/-MKs1F8f0Ts",
+  },
+  {
+    text: "Entrepreneurship",
+    src: "https://www.youtube.com/embed/BpLMzllnTRI",
+  },
+  {
+    text: "Video example for an idea",
+    src: "https://www.youtube.com/embed/BK7btkmj8a8",
   },
 ];
 
@@ -131,6 +147,7 @@ export default function Home() {
           bannerTexts={bannerTexts}
         />
         <CompetitionSteps title='Competition Steps' steps={competitionSteps} />
+        <Tutorials title='Tutorial Videos' videos={tutorialVideos} />
         <Subscription title='Subscribe Now' formSrc={formSrc} />
         <Overview title='Overview' overviewInfo={overviewInfo} />
         <Examples title='Examples of Synthetic Biology' examples={examples} />
