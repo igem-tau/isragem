@@ -10,10 +10,10 @@ function Event({ date, title }) {
 }
 
 export default function Banner({
-  subscriptionEndDate,
-  subscriptionEndText,
   competitionStartDate,
   competitionStartText,
+  videoSubmissionEndDate,
+  videoSubmissionEndText,
   finalDate,
   finalText,
   direction,
@@ -21,8 +21,8 @@ export default function Banner({
 }) {
   return (
     <div className={`${styles.banner} ${className}`} style={{ direction }}>
-      <Event date={subscriptionEndDate} title={subscriptionEndText} />
       <Event date={competitionStartDate} title={competitionStartText} />
+      <Event date={videoSubmissionEndDate} title={videoSubmissionEndText} />
       <Event date={finalDate} title={finalText} />
     </div>
   );

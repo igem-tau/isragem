@@ -12,7 +12,7 @@ import overviewStyles from "../../components/Overview/Overview.module.css";
 import { targetDate } from "@/constants";
 
 const countDownText = {
-  title: "competition starts in:",
+  title: "video submission ends in:",
   daysText: "days",
   hoursText: "hours",
   minutesText: "minutes",
@@ -20,10 +20,10 @@ const countDownText = {
 };
 const subscriptionButtonText = "Subscribe Now";
 const bannerTexts = {
-  subscriptionEndDate: "10.3",
-  subscriptionEndText: "subscription end",
   competitionStartDate: "13.3",
   competitionStartText: "competition start",
+  videoSubmissionEndDate: "23.4",
+  videoSubmissionEndText: "video submission",
   finalDate: "27.6",
   finalText: "final event",
 };

@@ -10,11 +10,12 @@ import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import overviewStyles from "../../components/Overview/Overview.module.css";
 import { targetDate } from "@/constants";
+import Tutorials from "@/components/Tutorials";
 
 const direction = "rtl";
 
 const countDownText = {
-  title: "התחרות תתחיל בעוד:",
+  title: "הגשת הסרטונים נגמרת בעוד:",
   daysText: "ימים",
   hoursText: "שעות",
   minutesText: "דקות",
@@ -22,10 +23,10 @@ const countDownText = {
 };
 const subscriptionButtonText = "הירשמו עכשיו";
 const bannerTexts = {
-  subscriptionEndDate: "10.3",
-  subscriptionEndText: "סגירת ההרשמה",
   competitionStartDate: "13.3",
   competitionStartText: "יום הזנקת התחרות",
+  videoSubmissionEndDate: "23.4",
+  videoSubmissionEndText: "הגשת סרטונים",
   finalDate: "27.6",
   finalText: "אירוע הגמר",
 };
