@@ -5,11 +5,22 @@ export default function VideoCard({
   text,
   videoSrc,
   videoTitle = "YouTube video player",
+  textClassName = "",
+  textAtTop = false,
+  direction = "ltr",
   className,
   ...props
 }) {
   return (
     <Card className={className} {...props}>
+      {text && textAtTop && (
+        <p
+          className={`${styles.text} ${styles.text_top} ${textClassName}`}
+          style={{ direction }}
+        >
+          {text}
+        </p>
+      )}
       <iframe
         width='560'
         height='315'
@@ -20,7 +31,11 @@ export default function VideoCard({
         allowFullScreen
         className={styles.video}
       />
-      <p className={styles.text}>{text}</p>
+      {text && !textAtTop && (
+        <p className={`${styles.text} ${styles.text_bottom} ${textClassName}`}>
+          {text}
+        </p>
+      )}
     </Card>
   );
 }

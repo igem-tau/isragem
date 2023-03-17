@@ -1,5 +1,12 @@
 .text {
   font-size: var(--small-font-size);
+}
+
+.text_top {
+  margin-bottom: var(--medium-vertical-spacing);
+}
+
+.text_bottom {
   margin-top: var(--medium-vertical-spacing);
 }
 
