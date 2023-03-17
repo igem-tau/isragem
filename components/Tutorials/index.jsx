@@ -3,7 +3,7 @@ import styles from "./Tutorials.module.css";
 
 export default function Tutorials({ title, videos, direction = "ltr" }) {
   return (
-    <section className={styles.container} style={{ direction }}>
+    <section className={styles.container} style={{ direction }} id='tutorials'>
       <h2 className={styles.title}>{title}</h2>
       <div className={styles.videos}>
         {videos &&

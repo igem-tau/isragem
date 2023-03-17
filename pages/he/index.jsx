@@ -133,6 +133,7 @@ export default function Home() {
       <Navigation
         homeText='דף הבית'
         competitionStepsText='שלבי התחרות'
+        tutorialsText='סרטוני הדרכה'
         subscriptionText='הירשמו עכשיו'
         overviewText='על קצה המזלג'
       />

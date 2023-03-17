@@ -135,6 +135,7 @@ export default function Home() {
       <Navigation
         homeText='Home'
         competitionStepsText='Competition Steps'
+        tutorialsText='Tutorial Videos'
         subscriptionText='Subscribe'
         overviewText='Overview'
       />

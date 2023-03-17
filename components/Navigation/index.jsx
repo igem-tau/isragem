@@ -6,6 +6,7 @@ import styles from "./Navigation.module.css";
 export default function Navigation({
   homeText,
   competitionStepsText,
+  tutorialsText,
   subscriptionText,
   overviewText,
 }) {
@@ -28,6 +29,9 @@ export default function Navigation({
         </a>
         <a href='#competition_steps'>
           <h2>{competitionStepsText}</h2>
+        </a>
+        <a href='#tutorials'>
+          <h2>{tutorialsText}</h2>
         </a>
         <a href='#subscription'>
           <h2>{subscriptionText}</h2>
