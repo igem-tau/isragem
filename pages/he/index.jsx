@@ -58,17 +58,22 @@ const competitionSteps = [
   },
 ];
 
-const tutorialVideos = [
-  {
-    text: "מה מגדיר פתרון טוב?",
-    src: "https://www.youtube.com/embed/-MKs1F8f0Ts",
-  },
-  { text: "יזמות", src: "https://www.youtube.com/embed/BpLMzllnTRI" },
-  {
-    text: "דוגמא לסרטון עבור התחרות",
-    src: "https://www.youtube.com/embed/BK7btkmj8a8",
-  },
-];
+const tutorialData = {
+  tutorialVideos: [
+    {
+      text: "מה מגדיר פתרון טוב?",
+      src: "https://www.youtube.com/embed/-MKs1F8f0Ts",
+    },
+    { text: "יזמות", src: "https://www.youtube.com/embed/BpLMzllnTRI" },
+    {
+      text: "דוגמא לסרטון עבור התחרות",
+      src: "https://www.youtube.com/embed/BK7btkmj8a8",
+    },
+  ],
+  videoInstructionsText: "לצפייה במכוון המלא ליצירת הסרטון",
+  videoInstructionsLink:
+    "https://drive.google.com/file/d/1lBGNLh6HCA-wWWO1Uqspe05K6REqHEpYS4jrFCGhUE4/view",
+};
 
 const formSrc =
   "https://docs.google.com/forms/d/e/1FAIpQLSf-unXjLtd_V8rvm1TJCJHuOZuilVXd8QD12dq3lUjZTQcrCA/viewform?embedded=true";
@@ -153,7 +158,9 @@ export default function Home() {
         />
         <Tutorials
           title='סרטוני הדרכה'
-          videos={tutorialVideos}
+          videos={tutorialData.tutorialVideos}
+          videoInstructionsText={tutorialData.videoInstructionsText}
+          videoInstructionsLink={tutorialData.videoInstructionsLink}
           direction={direction}
         />
         <Subscription title='הירשמו עכשיו' formSrc={formSrc} />

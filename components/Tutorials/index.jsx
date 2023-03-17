@@ -1,12 +1,15 @@
 import VideoCard from "../VideoCard";
 import styles from "./Tutorials.module.css";
 
-export default function Tutorials({ title, videos, direction = "ltr" }) {
+export default function Tutorials({
+  title,
+  videos,
+  videoInstructionsText,
+  videoInstructionsLink,
+  direction = "ltr",
+}) {
   return (
-    <section
-      className={styles.container}
-      style={{ direction }}
-    >
+    <section className={styles.container} style={{ direction }}>
       <span className={styles.nav_target} id='tutorials' />
       <h2 className={styles.title}>{title}</h2>
       <div className={styles.videos}>
@@ -24,6 +27,11 @@ export default function Tutorials({ title, videos, direction = "ltr" }) {
             />
           ))}
       </div>
+      <p className={styles.instructions_link}>
+        <a href={videoInstructionsLink} target='_blank'>
+          {videoInstructionsText}
+        </a>
+      </p>
     </section>
   );
 }
