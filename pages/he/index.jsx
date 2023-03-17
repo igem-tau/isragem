@@ -15,7 +15,7 @@ import Tutorials from "@/components/Tutorials";
 const direction = "rtl";
 
 const countDownText = {
-  title: "הגשת הסרטונים נגמרת בעוד:",
+  title: "זמן שנותר להגשת הסרטונים:",
   daysText: "ימים",
   hoursText: "שעות",
   minutesText: "דקות",
