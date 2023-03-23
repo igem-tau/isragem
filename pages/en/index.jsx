@@ -60,7 +60,7 @@ const competitionSteps = [
 const tutorialData = {
   tutorialVideos: [
     {
-      text: "what defines a good solution?",
+      text: "What defines a good solution?",
       src: "https://www.youtube.com/embed/-MKs1F8f0Ts",
     },
     {
@@ -70,6 +70,14 @@ const tutorialData = {
     {
       text: "Video example for an idea",
       src: "https://www.youtube.com/embed/BK7btkmj8a8",
+    },
+    {
+      text: "Biology or Engineering?",
+      src: "https://www.youtube.com/embed/LpsH5v5L_9I",
+    },
+    {
+      text: "Proteins - biological background",
+      src: "https://www.youtube.com/embed/bEQOMQZTzEk",
     },
   ],
   videoInstructionsText: "watch the full video instructions",

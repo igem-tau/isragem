@@ -69,6 +69,14 @@ const tutorialData = {
       text: "דוגמא לסרטון עבור התחרות",
       src: "https://www.youtube.com/embed/BK7btkmj8a8",
     },
+    {
+      text: "ביולוגיה או הנדסה?",
+      src: "https://www.youtube.com/embed/LpsH5v5L_9I",
+    },
+    {
+      text: "רקע ביולוגי על חלבונים",
+      src: "https://www.youtube.com/embed/bEQOMQZTzEk",
+    },
   ],
   videoInstructionsText: "לצפייה במכוון המלא ליצירת הסרטון",
   videoInstructionsLink:
