@@ -77,6 +77,14 @@ const tutorialData = {
       text: "רקע ביולוגי על חלבונים",
       src: "https://www.youtube.com/embed/bEQOMQZTzEk",
     },
+    {
+      text: "הצלת חיים בעזרת הנדסה גנטית",
+      src: "https://www.youtube.com/embed/j2R3WuGQOG4",
+    },
+    {
+      text: "כלים להנדסה גנטית",
+      src: "https://www.youtube.com/embed/w53UH34P93M",
+    },
   ],
   videoInstructionsText: "לצפייה במכוון המלא ליצירת הסרטון",
   videoInstructionsLink:

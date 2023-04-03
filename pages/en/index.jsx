@@ -79,6 +79,14 @@ const tutorialData = {
       text: "Proteins - biological background",
       src: "https://www.youtube.com/embed/bEQOMQZTzEk",
     },
+    {
+      text: "Saving lives with genetic engineering",
+      src: "https://www.youtube.com/embed/j2R3WuGQOG4",
+    },
+    {
+      text: "Tools for genetic engineering",
+      src: "https://www.youtube.com/embed/w53UH34P93M",
+    },
   ],
   videoInstructionsText: "watch the full video instructions",
   videoInstructionsLink:
