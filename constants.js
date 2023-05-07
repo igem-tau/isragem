@@ -1,1 +1,1 @@
-export const targetDate = new Date("2023-04-23T23:59:59.999Z").getTime();
+export const targetDate = new Date("2023-06-27T08:59:59.999Z").getTime();

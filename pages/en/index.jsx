@@ -13,7 +13,7 @@ import { targetDate } from "@/constants";
 import Tutorials from "@/components/Tutorials";
 
 const countDownText = {
-  title: "video submission ends in:",
+  title: "Final Event in:",
   daysText: "days",
   hoursText: "hours",
   minutesText: "minutes",
