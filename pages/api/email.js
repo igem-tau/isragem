@@ -44,19 +44,14 @@ const getHTML = (
 
 const heTexts = {
   greetings: "שלום רב",
-  invite: "אנחנו שמחים להזמין אותך למפגש הסברה על תחרות Isra-Gem.",
-  pre_meetings_info: "המפגש יתקיים באופן דיגיטלי בשני מועדים:",
+  invite: "תודה רבה שנרשמתם לתחרות Isra-gem.",
+  pre_meetings_info: "",
   meetings: [
     {
-      info: "יום רביעי (01.03) בשעה 18:00",
-      link: "https://tau-ac-il.zoom.us/j/88508681221",
-    },
-    {
-      info: "יום ראשון (05.03) בשעה 18:00",
-      link: "https://tau-ac-il.zoom.us/j/82160952596",
-    },
-  ],
-  post_links: "נשמח לראותכם במפגש.",
+      info: "",
+      link: "",
+],
+  post_links: "ניצור אתכם קשר בהקדם למתן פרטים נוספים.",
   closing: "בברכה",
   signature: "צוות Isra-Gem",
 };
@@ -64,19 +59,14 @@ const heTexts = {
 const enTexts = {
   greetings: "Hi there",
   invite:
-    "You're invited to an informative meeting about the Isra-Gem competition,",
-  pre_meetings_info: "which will be held digitally on two dates: ",
+    "Thank you for submitting to Isra-gem competition,",
+  pre_meetings_info: "",
   meetings: [
     {
-      info: "Wednesday (03.01) at 18:00",
-      link: "https://tau-ac-il.zoom.us/j/88508681221",
-    },
-    {
-      info: "Sunday (03.05) at 18:00",
-      link: "https://tau-ac-il.zoom.us/j/82160952596",
-    },
-  ],
-  post_links: "We hope to see you there.",
+      info: "",
+      link: "",
+],
+  post_links: "We will contact you soon for further information.",
   closing: "Best regards",
   signature: "The Isra-Gem team",
 };
@@ -88,8 +78,8 @@ const texts = {
 
 const getDetails = (toEmail, language) => {
   const subject = {
-    he: "לינק למפגש הסברה למורים - Isra-Gem",
-    en: "Isra-Gem Competition: Information Meeting for Teachers",
+    he: "Isra-Gem הרשמה לתחרות",
+    en: "Isra-Gem Competition",
   };
   const html = getHTML(language, texts[language]);
 
