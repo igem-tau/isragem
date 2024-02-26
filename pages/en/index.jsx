@@ -48,7 +48,7 @@ const competitionSteps = [
       "To create a good video, clarity is key. The video should be clear, simple, and unambiguous in conveying its message. It should also be tailored to the target audience and provide sufficient background information for understanding. Maintaining viewer interest is also important; the video should be engaging and hold the viewer's attention throughout. By prioritizing these factors, you can create a video that effectively communicates your solution in a way that is both informative and enjoyable to watch.",
   },
   {
-    text: "The groups with the most successful videos that meet the requirements will advance to the final round, which will take place on 02.06 at Tel Aviv University. At the final, you'll receive expert guidance from consultants in various fields, including industry, academia, and the Ministry of Education, to help you refine and develop your idea. You'll then present your final solution to a panel of judges.",
+    text: "The groups with the most successful videos that meet the requirements will advance to the final round, which will take place on June 2nd at Tel Aviv University. At the final, you'll receive expert guidance from consultants in various fields, including industry, academia, and the Ministry of Education, to help you refine and develop your idea. You'll then present your final solution to a panel of judges.",
     imagePath: "/3rd_step_icon.svg",
     imageDescription: "beakers icon",
     question: "A prize will be given to the winning team!",
