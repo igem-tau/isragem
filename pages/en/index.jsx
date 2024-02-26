@@ -21,17 +21,17 @@ const countDownText = {
 };
 const subscriptionButtonText = "Subscribe Now";
 const bannerTexts = {
-  competitionStartDate: "13.3",
+  competitionStartDate: "17.03",
   competitionStartText: "competition start",
-  videoSubmissionEndDate: "23.4",
+  videoSubmissionEndDate: "19.05",
   videoSubmissionEndText: "video submission",
-  finalDate: "27.6",
+  finalDate: "02.06",
   finalText: "final event",
 };
 
 const competitionSteps = [
   {
-    text: "In this competition, you'll be placed in groups of up to 10 students, working alongside your classmates. Your task will be to tackle real-world problems in the field of biotech, conducting research to gain a deep understanding of the scientific background and proposing innovative solutions using synthetic biology tools. Through this experience, you'll have the chance to develop your skills in synthetic biology and work collaboratively with others to solve complex challenges.",
+    text: "In this competition, you'll be placed in groups of up to 5 students, working alongside your classmates. Your task will be to tackle real-world problems in the field of biotech, conducting research to gain a deep understanding of the scientific background and proposing innovative solutions using synthetic biology tools. Through this experience, you'll have the chance to develop your skills in synthetic biology and work collaboratively with others to solve complex challenges.",
     imagePath: "/1st_step_icon.svg",
     imageDescription: "magnifying glass icon",
     question: "What defines a good solution?",
@@ -48,7 +48,7 @@ const competitionSteps = [
       "To create a good video, clarity is key. The video should be clear, simple, and unambiguous in conveying its message. It should also be tailored to the target audience and provide sufficient background information for understanding. Maintaining viewer interest is also important; the video should be engaging and hold the viewer's attention throughout. By prioritizing these factors, you can create a video that effectively communicates your solution in a way that is both informative and enjoyable to watch.",
   },
   {
-    text: "The groups with the most successful videos that meet the requirements will advance to the final round, which will take place on June 27 at Tel Aviv University. At the final, you'll receive expert guidance from consultants in various fields, including industry, academia, and the Ministry of Education, to help you refine and develop your idea. You'll then present your final solution to a panel of judges.",
+    text: "The groups with the most successful videos that meet the requirements will advance to the final round, which will take place on 02.06 at Tel Aviv University. At the final, you'll receive expert guidance from consultants in various fields, including industry, academia, and the Ministry of Education, to help you refine and develop your idea. You'll then present your final solution to a panel of judges.",
     imagePath: "/3rd_step_icon.svg",
     imageDescription: "beakers icon",
     question: "A prize will be given to the winning team!",
