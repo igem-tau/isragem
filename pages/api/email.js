@@ -50,6 +50,7 @@ const heTexts = {
     {
       info: "",
       link: "",
+    }
 ],
   post_links: "ניצור אתכם קשר בהקדם למתן פרטים נוספים.",
   closing: "בברכה",
@@ -65,6 +66,7 @@ const enTexts = {
     {
       info: "",
       link: "",
+    }
 ],
   post_links: "We will contact you soon for further information.",
   closing: "Best regards",
