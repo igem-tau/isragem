@@ -94,7 +94,7 @@ const tutorialData = {
 };
 
 const formSrc =
-  "https://docs.google.com/forms/d/e/1FAIpQLSe55e0wmI8KW1FGTxa3pQMVjuTFTq9ekrP85RjCBG4xQWzmxQ/viewform?embedded=true";
+  "https://docs.google.com/forms/d/e/1HN78EgoXBFZC41JbowqyF16Cnzk5nfF8MTlFPdREc0w/viewform?embedded=true";
 
 const overviewInfo = [
   {
