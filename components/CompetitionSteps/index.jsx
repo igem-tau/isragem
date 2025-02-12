@@ -18,6 +18,8 @@ export default function CompetitionSteps({ title, steps, direction = "ltr" }) {
               question={step.question}
               answer={step.answer}
               isAccentColor={step.isAccentColor}
+              link={step.link}
+              linkText={step.linkText}
             />
           ))}
       </div>
