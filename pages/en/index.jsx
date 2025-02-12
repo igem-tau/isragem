@@ -154,7 +154,7 @@ export default function Home() {
         />
         <CompetitionSteps title='Competition Steps' steps={competitionSteps} />
         <Tutorials
-          title='Tutorial Videos'
+          title='Supporting Documents and Examples'
           videoInstructionsText={tutorialData.videoInstructionsText}
           videoInstructionsLink={tutorialData.videoInstructionsLink}
           videos={tutorialData.tutorialVideos}
