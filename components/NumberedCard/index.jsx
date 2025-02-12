@@ -9,6 +9,8 @@ export default function NumberedCard({
   question,
   answer,
   isAccentColor = false,
+  link,
+  linkText,
 }) {
   return (
     <div
@@ -25,6 +27,7 @@ export default function NumberedCard({
       />
       <p className={`${styles.question} ${styles.small_text}`}>{question}</p>
       <p className={styles.small_text}>{answer}</p>
+      <a href={link} target="_blank"><b>{linkText}</b></a>
     </div>
   );
 }
