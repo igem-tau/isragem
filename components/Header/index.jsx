@@ -34,7 +34,7 @@ export default function Header({ otherLanguagePath }) {
             alt='Ort logo'
             className={styles.image}
             style={{width:'75px'}}
-            width={75}
+            width={100}
             height={35}
             priority
           />
