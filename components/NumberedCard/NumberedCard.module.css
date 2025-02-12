@@ -53,7 +53,7 @@
 }
 
 .link {
-    font-size: var(--small-font-size);
+    font-size: var(--large-font-size);
     text-decoration: underline;
     font-weight: bold;
 }
