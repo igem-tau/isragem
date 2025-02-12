@@ -71,7 +71,7 @@ const tutorialData = {
       src: "https://drive.google.com/file/d/1_uobB8B1E3A0XkQNTGEkvo6EG4U85au_/preview",
     },
     { text: "סרטון לדוגמה מתחרות iGEM העולמית",
-     src: "https://drive.google.com/file/d/1Wir3VMLkPPHJ8Fcck2n6fa0CmSlZhtoe/preview" }
+     src: "https://drive.google.com/file/d/1JHUVUeSqTWlj2q8m6H0VQTWB09gcMCc9/preview" }
   ],
   videoInstructionsText: "מסמכי עזר - הסברים ונושאי רקע",
   videoInstructionsLink:
