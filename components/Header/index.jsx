@@ -33,7 +33,7 @@ export default function Header({ otherLanguagePath }) {
             src='/ORT_Logo.png'
             alt='Ort logo'
             className={styles.image}
-            width={100}
+            width={75}
             height={35}
             priority
           />
@@ -43,7 +43,7 @@ export default function Header({ otherLanguagePath }) {
             src='/iGem_dark_Logo.svg'
             alt='iGem logo'
             className={styles.image}
-            width={75}
+            width={100}
             height={35}
             priority
           />
