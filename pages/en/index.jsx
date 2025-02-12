@@ -61,7 +61,7 @@ const tutorialData = {
   tutorialVideos: [
     {
       text: "Video example from ISRAGEM 2024",
-      src: "https://drive.google.com/file/d/1_uobB8B1E3A0XkQNTGEkvo6EG4U85au_/previe",
+      src: "https://drive.google.com/file/d/1_uobB8B1E3A0XkQNTGEkvo6EG4U85au_/preview",
     },
     {
       text: "Video Example from the international IGEM",
