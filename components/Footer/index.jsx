@@ -29,6 +29,14 @@ export default function Footer({ credits }) {
           height={35}
         />
       </a>
+        <a href='https://www.ort.org.il/' target='_blank'>
+        <Image
+          src='/ORT_Logo.svg'
+          alt='Ort logo'
+          width={100}
+          height={35}
+        />
+      </a>
       <a href='https://igem.org/' target='_blank'>
         <Image
           src='/iGem_dark_Logo.svg'
