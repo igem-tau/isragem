@@ -19,7 +19,6 @@ export default function NumberedCard({
     >
       <br/>
       <p className={styles.large_text}>{text}</p>
-      <p className={styles.link}> <a href={link} target="_blank">{linkText}</a></p>
       <Image
         src={imagePath}
         alt={imageDescription}
@@ -29,6 +28,7 @@ export default function NumberedCard({
       />
       <p className={`${styles.question} ${styles.small_text}`}>{question}</p>
       <p className={styles.small_text}>{answer}</p>
+      <p className={styles.link}> <a href={link} target="_blank">{linkText}</a></p>
     </div>
   );
 }
