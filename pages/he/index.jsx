@@ -67,9 +67,9 @@ const tutorialData = {
     { text: "סרטון לדוגמה מתחרות iGEM העולמית",
      src: "https://drive.google.com/file/d/1Wir3VMLkPPHJ8Fcck2n6fa0CmSlZhtoe/preview" }
   ],
-  videoInstructionsText: "לצפייה במכוון המלא ליצירת הסרטון",
+  videoInstructionsText: "מסמכי עזר - הסברים ונושאי רקע",
   videoInstructionsLink:
-    "https://drive.google.com/file/d/1h0u4qJjihVmpmthuHIWm06YnrMDzwsNm/view",
+    "https://biology.education.gov.il/",
 };
 
 const formSrc =
