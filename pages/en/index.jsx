@@ -68,9 +68,9 @@ const tutorialData = {
       src: "https://drive.google.com/file/d/1Wir3VMLkPPHJ8Fcck2n6fa0CmSlZhtoe/preview",
     },
   ],
-  videoInstructionsText: "watch the full video instructions",
+  videoInstructionsText: "Supporting documents - explanations and background topics",
   videoInstructionsLink:
-    "https://drive.google.com/file/d/1h0u4qJjihVmpmthuHIWm06YnrMDzwsNm/view",
+    "https://biology.education.gov.il/",
 };
 
 const formSrc =
