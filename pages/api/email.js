@@ -44,7 +44,7 @@ const getHTML = (
 
 const heTexts = {
   greetings: "שלום רב",
-  invite: "תודה רבה לך על הרשמתך לתחרות ISRA-GEM 2024!",
+  invite: "תודה רבה לך על הרשמתך לתחרות ISRA-GEM 2025!",
   pre_meetings_info: "",
   meetings: [
     {
@@ -54,13 +54,13 @@ const heTexts = {
 ],
   post_links: "בקרוב ישלח לך מייל עם פרטים נוספים.",
   closing: "תודה ויום טוב,",
-  signature: "צוות TAU iGEM 2024",
+  signature: "צוות TAU iGEM 2025",
 };
 
 const enTexts = {
   greetings: "Hi there",
   invite:
-    "Thank you for your registration to ISRA-GEM competition!",
+    "Thank you for your registration to ISRA-GEM 2025 competition!",
   pre_meetings_info: "",
   meetings: [
     {
@@ -70,7 +70,7 @@ const enTexts = {
 ],
   post_links: "Soon an email we be sent to you with further information.",
   closing: "Thank you and have a nice day,",
-  signature: "TAU iGEM Team 2024",
+  signature: "TAU iGEM Team 2025",
 };
 
 const texts = {
