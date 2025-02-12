@@ -28,20 +28,20 @@ export default function Header({ otherLanguagePath }) {
             priority
           />
         </a>
-        <a href='https://igem.org/' target='_blank'>
+          <a href='https://www.ort.org.il/' target='_blank'>
           <Image
-            src='/iGem_dark_Logo.svg'
-            alt='iGem logo'
+            src='/ORT_Logo.png'
+            alt='Ort logo'
             className={styles.image}
             width={100}
             height={35}
             priority
           />
         </a>
-          <a href='https://www.ort.org.il/' target='_blank'>
+        <a href='https://igem.org/' target='_blank'>
           <Image
-            src='/ORT_Logo.svg'
-            alt='Ort logo'
+            src='/iGem_dark_Logo.svg'
+            alt='iGem logo'
             className={styles.image}
             width={100}
             height={35}
