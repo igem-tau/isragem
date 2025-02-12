@@ -27,7 +27,7 @@ export default function NumberedCard({
       />
       <p className={`${styles.question} ${styles.small_text}`}>{question}</p>
       <p className={styles.small_text}>{answer}</p>
-      <a href={link} target="_blank"><b>{linkText}</b></a>
+      <a className={styles.link} href={link} target="_blank">{linkText}</a>
     </div>
   );
 }
