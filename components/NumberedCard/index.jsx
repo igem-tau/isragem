@@ -17,6 +17,7 @@ export default function NumberedCard({
       className={`${styles.card} ${isAccentColor ? styles.accent : ""}`}
       number={number}
     >
+      <br/>
       <p className={styles.large_text}>{text}</p>
       <p className={styles.link}> <a href={link} target="_blank">{linkText}</a></p>
       <Image
