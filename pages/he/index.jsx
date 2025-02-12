@@ -23,11 +23,11 @@ const countDownText = {
 };
 const subscriptionButtonText = "הירשמו עכשיו";
 const bannerTexts = {
-  competitionStartDate: "17.03",
+  competitionStartDate: "14.02",
   competitionStartText: "יום הזנקת התחרות",
-  videoSubmissionEndDate: "19.05",
+  videoSubmissionEndDate: "04.05",
   videoSubmissionEndText: "הגשת סרטונים",
-  finalDate: "02.06",
+  finalDate: "04.06",
   finalText: "אירוע הגמר",
 };
 
@@ -61,38 +61,19 @@ const competitionSteps = [
 const tutorialData = {
   tutorialVideos: [
     {
-      text: "מה מגדיר פתרון טוב?",
-      src: "https://www.youtube.com/embed/-MKs1F8f0Ts",
+      text: "סרטון לדוגמה מתחרות ISRAGEM 2024",
+      src: "https://drive.google.com/file/d/1_uobB8B1E3A0XkQNTGEkvo6EG4U85au_/preview",
     },
-    { text: "יזמות", src: "https://www.youtube.com/embed/BpLMzllnTRI" },
-    {
-      text: "דוגמא לסרטון עבור התחרות",
-      src: "https://www.youtube.com/embed/BK7btkmj8a8",
-    },
-    {
-      text: "ביולוגיה או הנדסה?",
-      src: "https://www.youtube.com/embed/LpsH5v5L_9I",
-    },
-    {
-      text: "רקע ביולוגי על חלבונים",
-      src: "https://www.youtube.com/embed/bEQOMQZTzEk",
-    },
-    {
-      text: "הצלת חיים בעזרת הנדסה גנטית",
-      src: "https://www.youtube.com/embed/j2R3WuGQOG4",
-    },
-    {
-      text: "כלים להנדסה גנטית",
-      src: "https://www.youtube.com/embed/w53UH34P93M",
-    },
+    { text: "סרטון לדוגמה מתחרות iGEM העולמית",
+     src: "https://drive.google.com/file/d/1Wir3VMLkPPHJ8Fcck2n6fa0CmSlZhtoe/preview" }
   ],
   videoInstructionsText: "לצפייה במכוון המלא ליצירת הסרטון",
   videoInstructionsLink:
-    "https://docs.google.com/document/d/1lBGNLh6HCA-wWWO1Uqspe05K6REqHEpYS4jrFCGhUE4/export?format=pdf",
+    "https://drive.google.com/file/d/1h0u4qJjihVmpmthuHIWm06YnrMDzwsNm/view",
 };
 
 const formSrc =
-  "https://docs.google.com/forms/d/e/1FAIpQLSe55e0wmI8KW1FGTxa3pQMVjuTFTq9ekrP85RjCBG4xQWzmxQ/viewform?embedded=true";
+  "https://docs.google.com/forms/d/1rftd3QGVu7Vj6l14bVqgbzXC07p4b6jcwpyIaevXGI0/viewform?embedded=true";
 
 const overviewInfo = [
   {
