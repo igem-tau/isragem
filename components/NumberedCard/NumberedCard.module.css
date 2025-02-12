@@ -53,6 +53,7 @@
 }
 
 .link {
+    margin-top: 10px;
     font-size: var(--small-font-size);
     text-decoration: underline;
     font-weight: bold;
