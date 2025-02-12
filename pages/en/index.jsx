@@ -66,11 +66,11 @@ const competitionSteps = [
 const tutorialData = {
   tutorialVideos: [
     {
-      text: "Video example from ISRAGEM 2024",
+      text: "Example video from ISRAGEM 2024",
       src: "https://drive.google.com/file/d/1_uobB8B1E3A0XkQNTGEkvo6EG4U85au_/preview",
     },
     {
-      text: "Video Example from the international IGEM",
+      text: "Example video from the international IGEM",
       src: "https://drive.google.com/file/d/1Wir3VMLkPPHJ8Fcck2n6fa0CmSlZhtoe/preview",
     },
   ],
