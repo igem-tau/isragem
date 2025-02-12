@@ -33,7 +33,7 @@ export default function Footer({ credits }) {
         <Image
           src='/ORT_Logo.png'
           alt='Ort logo'
-          width={100}
+          width={75}
           height={35}
         />
       </a>
