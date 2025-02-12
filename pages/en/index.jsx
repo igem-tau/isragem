@@ -21,11 +21,11 @@ const countDownText = {
 };
 const subscriptionButtonText = "Subscribe Now";
 const bannerTexts = {
-  competitionStartDate: "17.03",
+  competitionStartDate: "14.02",
   competitionStartText: "competition start",
-  videoSubmissionEndDate: "19.05",
+  videoSubmissionEndDate: "04.05",
   videoSubmissionEndText: "video submission",
-  finalDate: "02.06",
+  finalDate: "04.06",
   finalText: "final event",
 };
 
@@ -60,41 +60,21 @@ const competitionSteps = [
 const tutorialData = {
   tutorialVideos: [
     {
-      text: "What defines a good solution?",
-      src: "https://www.youtube.com/embed/-MKs1F8f0Ts",
+      text: "Video example from ISRAGEM 2024",
+      src: "https://drive.google.com/file/d/1_uobB8B1E3A0XkQNTGEkvo6EG4U85au_/previe",
     },
     {
-      text: "Entrepreneurship",
-      src: "https://www.youtube.com/embed/BpLMzllnTRI",
-    },
-    {
-      text: "Video example for an idea",
-      src: "https://www.youtube.com/embed/BK7btkmj8a8",
-    },
-    {
-      text: "Biology or Engineering?",
-      src: "https://www.youtube.com/embed/LpsH5v5L_9I",
-    },
-    {
-      text: "Proteins - biological background",
-      src: "https://www.youtube.com/embed/bEQOMQZTzEk",
-    },
-    {
-      text: "Saving lives with genetic engineering",
-      src: "https://www.youtube.com/embed/j2R3WuGQOG4",
-    },
-    {
-      text: "Tools for genetic engineering",
-      src: "https://www.youtube.com/embed/w53UH34P93M",
+      text: "Video Example from the international IGEM",
+      src: "https://drive.google.com/file/d/1Wir3VMLkPPHJ8Fcck2n6fa0CmSlZhtoe/preview",
     },
   ],
   videoInstructionsText: "watch the full video instructions",
   videoInstructionsLink:
-    "https://docs.google.com/document/d/1lBGNLh6HCA-wWWO1Uqspe05K6REqHEpYS4jrFCGhUE4/export?format=pdf",
+    "https://drive.google.com/file/d/1h0u4qJjihVmpmthuHIWm06YnrMDzwsNm/view",
 };
 
 const formSrc =
-  "https://docs.google.com/forms/d/1HN78EgoXBFZC41JbowqyF16Cnzk5nfF8MTlFPdREc0w/viewform?embedded=true";
+  "https://docs.google.com/forms/d/1AuCYkwi5EJrHU66xAenE0isTJoIsD4E5BVqGJ2Efx1k/viewform?embedded=true";
 
 const overviewInfo = [
   {
