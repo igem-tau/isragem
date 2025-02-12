@@ -7,16 +7,6 @@ import Link from "next/link";
 export default function Header({ otherLanguagePath }) {
   return (
     <header className={styles.general}>
-        <Link href={"#"}>
-        <Image
-          src='/ORT_Logo.png'
-          alt='Ort logo'
-          className={styles.logo}
-          width={193}
-          height={43}
-          priority
-        />
-      </Link>
       <Link href={"#"}>
         <Image
           src='/ISRAGEM_Logo.png'
@@ -42,6 +32,16 @@ export default function Header({ otherLanguagePath }) {
           <Image
             src='/iGem_dark_Logo.svg'
             alt='iGem logo'
+            className={styles.image}
+            width={100}
+            height={35}
+            priority
+          />
+        </a>
+          <a href='https://www.ort.org.il/' target='_blank'>
+          <Image
+            src='/ORT_Logo.svg'
+            alt='Ort logo'
             className={styles.image}
             width={100}
             height={35}
