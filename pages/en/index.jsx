@@ -35,8 +35,7 @@ const competitionSteps = [
     imagePath: "/1st_step_icon.svg",
     imageDescription: "magnifying glass icon",
     question: "What defines a good solution?",
-    answer:
-      "A good solution should be applicable, innovative, safe and have a significant impact.",
+    answer: "A good solution should be applicable, innovative, safe and have a significant impact.",
     isAccentColor: true,
     link: "https://drive.google.com/file/d/1unqdCcZ4eZD0R8_qd_7g8mSOYZgnfIji/view",
     linkText: "Click here for a detailed explanation of the competition requirements.",
@@ -46,8 +45,7 @@ const competitionSteps = [
     imagePath: "/2nd_step_icon.svg",
     imageDescription: "video icon",
     question: "What defines a good video?",
-    answer:
-      "To create a good video, clarity is key. The video should be clear, simple, and unambiguous in conveying its message. It should also be tailored to the target audience and provide sufficient background information for understanding. Maintaining viewer interest is also important; the video should be engaging and hold the viewer's attention throughout. By prioritizing these factors, you can create a video that effectively communicates your solution in a way that is both informative and enjoyable to watch.",
+    answer: "To create a good video, clarity is key. The video should be clear, simple, and unambiguous in conveying its message. It should also be tailored to the target audience and provide sufficient background information for understanding. Maintaining viewer interest is also important; the video should be engaging and hold the viewer's attention throughout. By prioritizing these factors, you can create a video that effectively communicates your solution in a way that is both informative and enjoyable to watch.",
     link: "https://drive.google.com/file/d/1h0u4qJjihVmpmthuHIWm06YnrMDzwsNm/view",
     linkText: "Click here for an explanation on how to create a video.",
   },
