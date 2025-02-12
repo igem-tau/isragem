@@ -55,6 +55,5 @@
 .link {
     font-size: var(--small-font-size);
     text-decoration: underline;
-    font-style: italic;
     font-weight: bold;
 }
