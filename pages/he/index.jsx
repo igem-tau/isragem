@@ -160,7 +160,7 @@ export default function Home() {
           direction={direction}
         />
         <Tutorials
-          title='סרטוני הדרכה'
+          title='חומרי עזר ודוגמאות'
           videos={tutorialData.tutorialVideos}
           videoInstructionsText={tutorialData.videoInstructionsText}
           videoInstructionsLink={tutorialData.videoInstructionsLink}
