@@ -31,7 +31,7 @@
 
 .instructions_link {
   margin-top: var(--medium-vertical-spacing);
-  font-size: var(--large-font-size);
+  font-size: 30px;
   font-weight: 400;
   text-decoration: underline;
 }
