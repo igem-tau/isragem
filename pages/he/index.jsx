@@ -67,11 +67,13 @@ const competitionSteps = [
 const tutorialData = {
   tutorialVideos: [
     {
-      text: "סרטון לדוגמה מתחרות ISRAGEM 2024",
+      text: "סרטון לדוגמה 1 מתחרות ISRAGEM 2024",
+      src: "https://drive.google.com/file/d/1_uobB8B1E3A0XkQNTGEkvo6EG4U85au_/preview",
+    },
+    {
+      text: "סרטון לדוגמה 2 מתחרות ISRAGEM 2024",
       src: "https://drive.google.com/file/d/1oFBtPQDfViVKq9gIbFVFEV173Vqkhyuz/preview",
     },
-    { text: "סרטון לדוגמה מתחרות iGEM העולמית",
-     src: "https://drive.google.com/file/d/1JHUVUeSqTWlj2q8m6H0VQTWB09gcMCc9/preview" }
   ],
   videoInstructionsText: "מסמכי עזר - הסברים ונושאי רקע",
   videoInstructionsLink:
