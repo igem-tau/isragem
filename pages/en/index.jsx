@@ -65,7 +65,7 @@ const tutorialData = {
   tutorialVideos: [
     {
       text: "Example video from the ISRAGEM 2024 Competition",
-      src: "https://drive.google.com/file/d/1_uobB8B1E3A0XkQNTGEkvo6EG4U85au_/preview",
+      src: "https://drive.google.com/file/d/1oFBtPQDfViVKq9gIbFVFEV173Vqkhyuz/preview",
     },
     {
       text: "Example video from the international IGEM Competition",
@@ -74,7 +74,7 @@ const tutorialData = {
   ],
   videoInstructionsText: "Supporting documents - explanations and background topics",
   videoInstructionsLink:
-    "https://biology.education.gov.il/",
+    "https://pop.education.gov.il/tchumey_daat/biologya/chativa-elyona/noseem-nilmadim/",
 };
 
 const formSrc =
