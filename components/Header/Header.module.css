@@ -21,8 +21,8 @@
 }
 
 .logo{
-height: 100;
-width: auto;
+height: auto;
+width: 100;
 }
 .nav_container {
   margin-left: calc(150px - 25px);
