@@ -45,6 +45,14 @@ export default function Footer({ credits }) {
           height={35}
         />
       </a>
+            <a href='https://www.escaperoom.co.il/escape-rooms' target='_blank'>
+        <Image
+          src='/Escape_Logo.png'
+          alt='Escape Room logo'
+          width={100}
+          height={35}
+        />
+      </a>
     </footer>
   );
 }
