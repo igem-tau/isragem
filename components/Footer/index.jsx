@@ -49,8 +49,8 @@ export default function Footer({ credits }) {
         <Image
           src='/ESCAPE_Logo.png'
           alt='Escape Room logo'
-          width={50}
-          height={50}
+          width={35}
+          height={35}
         />
       </a>
     </footer>
