@@ -47,7 +47,7 @@ export default function Footer({ credits }) {
       </a>
             <a href='https://www.escaperoom.co.il/escape-rooms' target='_blank'>
         <Image
-          src='/Escape_Logo.png'
+          src='/ESCAPE_Logo.png'
           alt='Escape Room logo'
           width={100}
           height={35}
