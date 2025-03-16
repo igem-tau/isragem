@@ -54,7 +54,7 @@ export default function Header({ otherLanguagePath }) {
             src='/ESCAPE_Logo.png'
             alt='Escape Room logo'
             className={styles.image}
-            width={50}
+            width={100}
             height={35}
             priority
           />
