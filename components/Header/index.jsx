@@ -51,7 +51,7 @@ export default function Header({ otherLanguagePath }) {
         </a>
         <a href='https://www.escaperoom.co.il/escape-rooms' target='_blank'>
           <Image
-            src='/ESCAPE_Logo.svg'
+            src='/ESCAPE_Logo.png'
             alt='Escape Room logo'
             className={styles.image}
             width={100}
