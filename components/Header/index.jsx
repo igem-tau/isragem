@@ -61,7 +61,7 @@ export default function Header({ otherLanguagePath }) {
         </a>
         <a href='https://www.alagene.co.il/' target='_blank'>
           <Image
-            src='/Alagene_Logo.svg.svg'
+            src='/Alagene_Logo.png'
             alt='Alagene logo'
             className={styles.image}
             width={100}
