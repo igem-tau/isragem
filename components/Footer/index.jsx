@@ -55,7 +55,7 @@ export default function Footer({ credits }) {
       </a>
             <a href='https://www.alagene.co.il/' target='_blank'>
         <Image
-          src='/Alagene_Logo.png'
+          src='/Alagene_Logo.svg'
           alt='Alagene logo'
           width={100}
           height={35}
