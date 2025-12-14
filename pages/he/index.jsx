@@ -67,7 +67,7 @@ const competitionSteps = [
 const tutorialData = {
   tutorialVideos: [
     {
-      text: "סרטון לדוגמה 1 מתחרות ISRAGEM 2024",
+      text: " סרטון לדוגמה 1 מתחרות ISRAGEM 2024",
       src: "https://drive.google.com/file/d/1_uobB8B1E3A0XkQNTGEkvo6EG4U85au_/preview",
     },
     {
