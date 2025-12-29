@@ -27,7 +27,7 @@ const bannerTexts = {
   competitionStartText: "יום הזנקת התחרות",
   videoSubmissionEndDate: "TODO",
   videoSubmissionEndText: "הגשת סרטונים",
-  finalDate: "TODO",
+  finalDate: "6.5",
   finalText: "אירוע הגמר",
 };
 
