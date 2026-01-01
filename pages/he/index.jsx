@@ -23,11 +23,11 @@ const countDownText = {
 };
 const subscriptionButtonText = "הירשמו עכשיו";
 const bannerTexts = {
-  competitionStartDate: "TODO",
+  competitionStartDate: "1.1",
   competitionStartText: "יום הזנקת התחרות",
-  videoSubmissionEndDate: "TODO",
+  videoSubmissionEndDate: "9.4",
   videoSubmissionEndText: "הגשת סרטונים",
-  finalDate: "6.5",
+  finalDate: "23.4",
   finalText: "אירוע הגמר",
 };
 
