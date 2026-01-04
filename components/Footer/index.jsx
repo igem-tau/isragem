@@ -52,14 +52,14 @@ export default function Footer({ credits }) {
           width={185}
           height={35}
         />
-{/*       </a> */}
-{/*             <a href='https://www.alagene.co.il/' target='_blank'> */}
-{/*         <Image */}
-{/*           src='/Alagene_Logo.svg' */}
-{/*           alt='Alagene logo' */}
-{/*           width={100} */}
-{/*           height={35} */}
-{/*         /> */}
+      </a>
+            <a href='https://www.alagene.co.il/' target='_blank'>
+        <Image
+          src='/Alagene_Logo.svg'
+          alt='Alagene logo'
+          width={100}
+          height={35}
+        />
       </a>
     </footer>
   );
