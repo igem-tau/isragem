@@ -122,7 +122,7 @@ const examples = [
 const credits = [
   "Designed by Cheli Saban",
   "Developed by David Haggiag for iGEM TAU 2025",
-   "2025 Updates by Altar Horowitz",
+  "Updated by Altar Horowitz for iGEM TAU 2026",
   "Pictures and icons Designed by ",
 ];
 
