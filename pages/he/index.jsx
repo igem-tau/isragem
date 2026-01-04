@@ -71,7 +71,7 @@ const tutorialData = {
       src: "https://drive.google.com/file/d/1SjKqoTsuGagypxO-XH9zz4JlAia01woW/preview",
     },
     {
-      text: "אום אל פחם - סרטון לדוגמה מתחרות ISRAGEM 2024",
+      text: "אום אל פחם - סרטון לדוגמה מתחרות ISRAGEM 2025",
       src: "https://drive.google.com/file/d/1LVEdWSlsXRD9S20gqd7tsAKwu7Eww8bH/preview",
     },
   ],
