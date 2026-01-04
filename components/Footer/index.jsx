@@ -52,7 +52,7 @@ export default function Footer({ credits }) {
           width={185}
           height={35}
         />
-      </a>
+      {/*</a>
             <a href='https://www.alagene.co.il/' target='_blank'>
         <Image
           src='/Alagene_Logo.svg'
@@ -61,6 +61,7 @@ export default function Footer({ credits }) {
           height={35}
         />
       </a>
+      */}
     </footer>
   );
 }

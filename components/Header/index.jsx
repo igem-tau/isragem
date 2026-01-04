@@ -59,7 +59,7 @@ export default function Header({ otherLanguagePath }) {
             priority
           />
         </a>
-        <a href='https://www.alagene.co.il/' target='_blank'>
+        {/*<a href='https://www.alagene.co.il/' target='_blank'>
           <Image
             src='/Alagene_Logo.svg'
             alt='Alagene logo'
@@ -69,6 +69,7 @@ export default function Header({ otherLanguagePath }) {
             priority
           />
         </a>
+        */}
       </div>
       <div className={styles.nav_container}>
         <Link href={otherLanguagePath}>
