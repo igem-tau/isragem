@@ -81,7 +81,7 @@ const tutorialData = {
 };
 
 const formSrc =
-  "https://docs.google.com/forms/d/1rftd3QGVu7Vj6l14bVqgbzXC07p4b6jcwpyIaevXGI0/viewform?embedded=true";
+  "https://docs.google.com/forms/d/1y35NnIsmjgR_0ROrB5glcK9fhsRZxiC_QZ8a3q4A76I/viewform?edit_requested=true";
 
 const overviewInfo = [
   {
