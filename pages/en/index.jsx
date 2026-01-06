@@ -46,7 +46,7 @@ const competitionSteps = [
     imageDescription: "video icon",
     question: "What defines a good video?",
     answer: "To create a good video, clarity is key. The video should be clear, simple, and unambiguous in conveying its message. It should also be tailored to the target audience and provide sufficient background information for understanding. Maintaining viewer interest is also important; the video should be engaging and hold the viewer's attention throughout. By prioritizing these factors, you can create a video that effectively communicates your solution in a way that is both informative and enjoyable to watch.",
-    link: "https://drive.google.com/file/d/1h0u4qJjihVmpmthuHIWm06YnrMDzwsNm/view",
+    link: "https://drive.google.com/file/d/1h0u4qJjihVmpmthuHIWm06YnrMDzwsNm/preview",
     linkText: "Click here for an explanation on how to create a video.",
   },
   {
@@ -56,7 +56,7 @@ const competitionSteps = [
     question: "A prize will be given to the winning team!",
     answer: "Still not registered? Hurry up and register your team.",
     isAccentColor: true,
-    link: "https://drive.google.com/file/d/1teBHN60-rWZKoGXE_xrUnVEnqkNsXiaW/view",
+    link: "https://drive.google.com/file/d/1teBHN60-rWZKoGXE_xrUnVEnqkNsXiaW/preview",
     linkText: "Click here to view the judging form.",
   },
 ];

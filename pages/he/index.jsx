@@ -49,7 +49,7 @@ const competitionSteps = [
     question: "מה מגדיר סרטון טוב?",
     answer:
       "סרטון טוב צריך להעביר את המסר בצורה ברורה פשוטה וחד משמעית. הסרטון צריך להיות להתאים לקהל היעד אליו הוא פונה וחייב לכלול את הרקע הדרוש להבנתו. בנוסף, הסרטון צריך לשמור על רמת העניין של הצופה.",
-    link: "https://drive.google.com/file/d/1h0u4qJjihVmpmthuHIWm06YnrMDzwsNm/view",
+    link: "https://drive.google.com/file/d/1h0u4qJjihVmpmthuHIWm06YnrMDzwsNm/preview",
     linkText: "לחצו כאן להסבר על הכנת הסרטון",
   },
   {
@@ -59,7 +59,7 @@ const competitionSteps = [
     question: "הקבוצה המנצחת תזכה בפרס שווה!",
     answer: "עדיין לא נרשמתם? מהרו לעשות זאת עכשיו.",
     isAccentColor: true,
-    link: "https://drive.google.com/file/d/1teBHN60-rWZKoGXE_xrUnVEnqkNsXiaW/view",
+    link: "https://drive.google.com/file/d/1teBHN60-rWZKoGXE_xrUnVEnqkNsXiaW/preview",
     linkText: "לחצו כאן לעיון במכוון השיפוט",
   },
 ];
