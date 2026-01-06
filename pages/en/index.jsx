@@ -82,7 +82,7 @@ const formSrc =
 
 const overviewInfo = [
   {
-    text: "The iGEM project invites university students worldwide to initiate a synthetic biology research project and showcase their findings at an annual international competition in Paris. The ISRA-GEM competition aims to provide high school students in Israel with a similar opportunity to participate in a synthetic biology research project and present their results.",
+    text: "The iGEM project is a unique initiative where university students worldwide initiate a research project in synthetic biology and present their findings at an annual international competition in Paris. The ISRAGEM competition is organized by the iGEM 2026 team from Tel Aviv University and is intended for high school students from all study tracks. This competition allows students in Israel to gain a similar experience while still in high school.",
     imagePath: "/iGem_light_Logo.svg",
     imageDescription: "iGem logo",
     className: `${overviewStyles.single_card}`,
