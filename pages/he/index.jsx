@@ -157,11 +157,6 @@ export default function Home() {
           bannerTexts={bannerTexts}
           direction={direction}
         />
-        <div style={{ textAlign: "center", maxWidth: "800px", margin: "20px auto", padding: "0 20px" }}>
-          <p style={{ fontSize: "1.2rem" }}>
-            תחרות ISRA-GEM היא תחרות המאורגנת ע״י קבוצת iGEM 2026 מאוניברסיטת תל אביב, ומיועדת לתלמידי תיכון מכל מגמות הלימוד.
-          </p>
-        </div>
         <CompetitionSteps
           title='שלבי התחרות'
           steps={competitionSteps}
