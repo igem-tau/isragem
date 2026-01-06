@@ -21,11 +21,11 @@ const countDownText = {
 };
 const subscriptionButtonText = "Subscribe Now";
 const bannerTexts = {
-  competitionStartDate: "14.02",
+  competitionStartDate: "1.1",
   competitionStartText: "competition start",
-  videoSubmissionEndDate: "04.05",
+  videoSubmissionEndDate: "9.4",
   videoSubmissionEndText: "video submission",
-  finalDate: "04.06",
+  finalDate: "23.4",
   finalText: "final event",
 };
 
