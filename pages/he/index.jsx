@@ -75,7 +75,7 @@ const tutorialData = {
       src: "https://drive.google.com/file/d/1LVEdWSlsXRD9S20gqd7tsAKwu7Eww8bH/preview",
     },
   ],
-  videoInstructionsText: "מסמכי עזר - הסברים ונושאי רקע",
+  videoInstructionsText: "הסברים ונושאי רקע",
   videoInstructionsLink:
     "https://pop.education.gov.il/tchumey_daat/biologya/chativa-elyona/noseem-nilmadim/",
 };
