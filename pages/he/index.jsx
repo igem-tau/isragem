@@ -157,6 +157,11 @@ export default function Home() {
           bannerTexts={bannerTexts}
           direction={direction}
         />
+        <Overview
+          title='על קצה המזלג'
+          overviewInfo={overviewInfo}
+          direction={direction}
+        />
         <CompetitionSteps
           title='שלבי התחרות'
           steps={competitionSteps}
@@ -170,11 +175,6 @@ export default function Home() {
           direction={direction}
         />
         <Subscription title='הירשמו עכשיו' formSrc={formSrc} />
-        <Overview
-          title='על קצה המזלג'
-          overviewInfo={overviewInfo}
-          direction={direction}
-        />
         <Examples
           title='דוגמאות לשימוש בביולוגיה סינתטית'
           examples={examples}
