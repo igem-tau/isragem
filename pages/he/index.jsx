@@ -156,12 +156,13 @@ export default function Home() {
           subscriptionButtonText={subscriptionButtonText}
           bannerTexts={bannerTexts}
           direction={direction}
-        />
-        <Overview
-          title='על קצה המזלג'
-          overviewInfo={overviewInfo}
-          direction={direction}
-        />
+        >
+          <Overview
+            title='על קצה המזלג'
+            overviewInfo={overviewInfo}
+            direction={direction}
+          />
+        </Hero>
         <CompetitionSteps
           title='שלבי התחרות'
           steps={competitionSteps}

@@ -10,6 +10,7 @@ export default function Hero({
   subscriptionButtonText,
   bannerTexts,
   direction = "ltr",
+  children,
 }) {
   return (
     <section className={styles.hero} id='home'>
@@ -30,6 +31,10 @@ export default function Hero({
         secondsText={countDownText.secondsText}
         direction={direction}
       />
+
+      {/* This is where Overview will appear */}
+      {children}
+
       <Button
         text={subscriptionButtonText}
         className={styles.button}
