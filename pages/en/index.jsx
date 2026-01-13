@@ -152,7 +152,9 @@ export default function Home() {
           countDownText={countDownText}
           subscriptionButtonText={subscriptionButtonText}
           bannerTexts={bannerTexts}
-        />
+        >
+          <Overview title='Overview' overviewInfo={overviewInfo} />
+        </Hero>
         <CompetitionSteps title='Competition Steps' steps={competitionSteps} />
         <Tutorials
           title='Supporting Documents and Examples'
@@ -161,7 +163,6 @@ export default function Home() {
           videos={tutorialData.tutorialVideos}
         />
         <Subscription title='Subscribe Now' formSrc={formSrc} />
-        <Overview title='Overview' overviewInfo={overviewInfo} />
         <Examples title='Examples of Synthetic Biology' examples={examples} />
         <Footer credits={credits} />
       </main>
