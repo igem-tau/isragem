@@ -68,7 +68,7 @@ const tutorialData = {
   tutorialVideos: [
     {
       text: "אורט אבין - סרטון לדוגמה מתחרות ISRAGEM 2025",
-      src: "https://drive.google.com/file/d/1NWp7b5yKuolfs2L1AtzdoFzjQ3ejHA4G/preview",
+      src: "https://drive.google.com/file/d/1cnAvtam7dckdiPY54zfYnxF3brCiWAMy/preview",
     },
     {
       text: "אום אל פחם - סרטון לדוגמה מתחרות ISRAGEM 2025",

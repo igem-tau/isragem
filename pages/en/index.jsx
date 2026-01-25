@@ -65,7 +65,7 @@ const tutorialData = {
   tutorialVideos: [
     {
       text: "Example video 1 from the ISRAGEM 2025 Competition",
-      src: "https://drive.google.com/file/d/1NWp7b5yKuolfs2L1AtzdoFzjQ3ejHA4G/preview",
+      src: "https://drive.google.com/file/d/1cnAvtam7dckdiPY54zfYnxF3brCiWAMy/preview",
     },
     {
       text: "Example video 2 from the ISRAGEM 2025 Competition",
