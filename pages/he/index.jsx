@@ -25,9 +25,9 @@ const subscriptionButtonText = "הירשמו עכשיו";
 const bannerTexts = {
   competitionStartDate: "1.1",
   competitionStartText: "יום הזנקת התחרות",
-  videoSubmissionEndDate: "9.4",
+  videoSubmissionEndDate: "30.4",
   videoSubmissionEndText: "הגשת סרטונים",
-  finalDate: "23.4",
+  finalDate: "14.5",
   finalText: "אירוע הגמר",
 };
 

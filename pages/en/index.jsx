@@ -23,9 +23,9 @@ const subscriptionButtonText = "Subscribe Now";
 const bannerTexts = {
   competitionStartDate: "1.1",
   competitionStartText: "competition start",
-  videoSubmissionEndDate: "9.4",
+  videoSubmissionEndDate: "30.4",
   videoSubmissionEndText: "video submission",
-  finalDate: "23.4",
+  finalDate: "14.5",
   finalText: "final event",
 };
 
