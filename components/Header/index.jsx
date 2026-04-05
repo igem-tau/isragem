@@ -9,7 +9,7 @@ export default function Header({ otherLanguagePath }) {
     <header className={styles.general}>
       <Link href={"#"}>
         <Image
-          src='/ISRAGEM_Logo.png'
+          src='/ISRAGEM4_Logo.png'
           alt='Israem logo'
           className={styles.logo}
           width={193}
@@ -28,12 +28,12 @@ export default function Header({ otherLanguagePath }) {
             priority
           />
         </a>
-          <a href='https://www.ort.org.il/' target='_blank'>
+        <a href='https://www.ort.org.il/' target='_blank'>
           <Image
             src='/ORT_Logo.png'
             alt='Ort logo'
             className={styles.image}
-            style={{width:'75px'}}
+            style={{ width: '75px' }}
             width={100}
             height={35}
             priority

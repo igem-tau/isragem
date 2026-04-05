@@ -17,7 +17,7 @@ export default function Navigation({
       </a>
       <div className={styles.links}>
         <Image
-          src='/ISRAGEM_Logo.png'
+          src='/ISRAGEM4_Logo.png'
           alt='ISRAGEM I'
           width={480}
           height={107}
