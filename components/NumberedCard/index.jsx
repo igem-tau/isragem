@@ -11,6 +11,8 @@ export default function NumberedCard({
   isAccentColor = false,
   link,
   linkText,
+  secondLink,
+  secondLinkText,
 }) {
   return (
     <div
@@ -18,7 +20,22 @@ export default function NumberedCard({
       number={number}
     >
       <p className={styles.large_text}>{text}</p>
-      <p className={styles.link}> <a href={link} target="_blank">{linkText}</a></p>
+      {link && (
+        <p className={styles.link}>
+          {" "}
+          <a href={link} target="_blank" rel="noreferrer">
+            {linkText}
+          </a>
+        </p>
+      )}
+      {secondLink && (
+        <p className={styles.link}>
+          {" "}
+          <a href={secondLink} target="_blank" rel="noreferrer">
+            {secondLinkText}
+          </a>
+        </p>
+      )}
       <Image
         src={imagePath}
         alt={imageDescription}

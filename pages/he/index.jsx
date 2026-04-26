@@ -61,6 +61,8 @@ const competitionSteps = [
     isAccentColor: true,
     link: "https://drive.google.com/file/d/1teBHN60-rWZKoGXE_xrUnVEnqkNsXiaW/preview",
     linkText: "לחצו כאן לעיון במכוון השיפוט",
+    secondLink: "https://docs.google.com/document/d/13BiDQJoOr1YO47JAKv0kSLBUqg7rBI-FPUIPVxzFeoY/edit?tab=t.0",
+    secondLinkText: "ולחצו כאן להנחיות להכנת המצגת",
   },
 ];
 

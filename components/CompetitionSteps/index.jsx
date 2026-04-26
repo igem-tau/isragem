@@ -20,6 +20,8 @@ export default function CompetitionSteps({ title, steps, direction = "ltr" }) {
               isAccentColor={step.isAccentColor}
               link={step.link}
               linkText={step.linkText}
+              secondLink={step.secondLink}
+              secondLinkText={step.secondLinkText}
             />
           ))}
       </div>
